@@ -24,7 +24,7 @@ Attach the file alongside a manuscript (usually a `.docx` with margin comments).
 | 2–3. Voice and content rules | Conversational register, defining jargon on first use, theme statements, rhetorical questions in place of live ones, optional asides, footnotes reserved for reference material, checking doctrinal content against Reformed Baptist sources |
 | 4. Formatting | `.docx` conventions for the manuscript: headers, theme lines, Scripture blocks, gray optional asides, footnotes, and the speaking-notes layout |
 | 5. Flagging protocol | What Claude must raise with the teacher instead of deciding on its own, how to handle comments from more than one teacher, and how a comment round runs |
-| 6. Speaking notes | Bullet structure, the standard lead-ins (Open / Emphasize / Define / Land it / Ask (rhetorical) …), and the three-part Scripture unit: intro line, full ESV quote, follow-up points |
+| 6. Speaking notes | Bullet structure, the standard lead-ins (Open / Emphasize / Define / Land it / Ask (rhetorical) …), the three-part Scripture unit (intro line, full ESV quote, follow-up points), 16 pt notes built for glancing at the podium, and gray cited-only verses |
 | 7. Open questions | Decisions still waiting on the teacher |
 | 8. Scripture verification | How every passage gets checked against esv.org |
 | 9. Timing | The 30-minute target, measured against the speaking notes at the teacher's actual pace |
@@ -35,4 +35,4 @@ Rules use [RFC 2119](https://www.rfc-editor.org/info/rfc2119/) keywords (**MUST*
 
 #### Keeping it current
 
-Update the file after each class's edit rounds, and change a rule's status in place rather than appending duplicates. Each revision note at the top says which class's feedback it reflects. Revision 4 reflects the Leviticus class (Oct 2026).
+Update the file after each class's edit rounds, and change a rule's status in place rather than appending duplicates. Each revision note at the top says which class's feedback it reflects. Revision 5 reflects the Deuteronomy class (Oct 2026).

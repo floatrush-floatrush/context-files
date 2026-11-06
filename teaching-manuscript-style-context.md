@@ -1,340 +1,376 @@
 # Teaching Manuscript Voice & Editing Rules
 
-The key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**, **RECOMMENDED**, **MAY**, and **OPTIONAL** in this document are to be interpreted as described in [RFC 2119](https://www.rfc-editor.org/info/rfc2119/):
+The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT** and **MAY** in this document are modeled on [RFC 2119](https://www.rfc-editor.org/info/rfc2119/) and mean:
 - **MUST** = absolute requirement. Violating it is a defect.
 - **MUST NOT** = absolute prohibition.
 - **SHOULD** = default behavior; deviating requires a real reason, weighed and stated.
 - **SHOULD NOT** = default-avoid; doing it anyway requires a real reason, weighed and stated.
 - **MAY** = genuinely optional, either way is fine.
 
-Source: derived from a diff of an original Core Seminar manuscript, an AI rewrite, and Conrad's hand-edit of that rewrite, cross-checked against margin comments on the original. Rules with a citation were confirmed against an actual edit; rules marked **[UNCONFIRMED]** are working defaults with no edit pass behind them yet. Edit this file directly as new manuscripts get hand-edited — update a rule's status, don't just append new ones.
+Derived from comparing an original class manuscript, an AI rewrite and the teacher's hand-edit of that rewrite, cross-checked against margin comments, then refined over later manuscripts. Rules are in force unless tagged **[Provisional]** (followed as written, not yet confirmed by the teacher).
 
-*Revision 4 (after the Leviticus round, Oct 2026): three comment rounds from Conrad, one from co-teacher Garrett, a timing cut to 30 minutes, and Conrad's answers to the open questions in §7. New or changed rules are tagged [Leviticus].*
+*Revision 6 (editorial pass).*
 
-*Revision 5 (after the Deuteronomy round, Oct 2026): a source manuscript from a different author who marked emphasis in red, four comment rounds from Conrad (one returned as a .pages file), and a recorded dry run of the speaking notes that Conrad re-listened to and edited into the version he teaches from. New or changed rules are tagged [Deuteronomy].*
+Covers two output types: **(A) Manuscript rewrite** — full voice pass, same content and section order. **(B) Speaking notes** — bullet-point version for teaching from, not reading from. The teacher reads the theme lines, the ▶ intro lines and the Scripture quotes as written, and talks through the points in between, so the notes are what the class actually hears.
 
-Covers two output types: **(A) Manuscript rewrite** — full voice pass, same content and section order. **(B) Speaking notes** — bullet-point version for teaching from, not reading from. **Conrad teaches from the speaking notes** (reads each theme line, then works through the points), so the notes are what the class actually hears. *(Confirmed, Leviticus.)*
+Rules apply to both outputs unless marked. §4 is split by part (manuscript, notes), §6 is notes-only, and timing (§8) is measured on the notes.
 
----
-
-## 1. Absolute rules (apply to both output types)
-
-1.1. The agent **MUST NOT** alter any Scripture quotation. This includes full block quotes and short inline phrases in quotation marks (e.g. "and then he died"). Verse numbers and translation tag (e.g. "(ESV)") **MUST** be reproduced exactly, regardless of whether the source highlighted the quote. *[Leviticus]* The one exception is the ESV check in §8: when the teacher asks for Scripture to be verified, non-ESV or mis-transcribed text is flagged and corrected to the ESV only with the teacher's approval.
-
-1.2. The agent **MUST NOT** change section order, count, or scope *on its own initiative*. Section headings **MAY** be reworded for voice (e.g. "Theme and Outline" → "The Big Idea and the Roadmap"). Sections **MUST NOT** be merged, split, reordered, or moved unless the teacher (or, per §5.5, a co-teacher whose suggestion the teacher endorses) explicitly asks for it. *(Tentative — applied on the Exodus manuscript but not yet reviewed by Conrad: he and the co-teacher asked to reorder the five Themes into a more chronological sequence, transition sentences were rewritten to match, and the resulting order was flagged back as a judgment call, since "chronological" admitted more than one defensible ordering. Reclassify to confirmed once he has read the reordered draft and signed off.)* When reordering is requested, cross-references between sections (a closing summary that lists prior themes, a "this discussion leads to our next theme" transition, etc.) **MUST** be checked and updated to match the new order — don't just move blocks of text and leave stale ordinal language behind. Merging or reordering paragraphs *within* a section at the teacher's request is fine (e.g. explaining the grain and peace offerings together). *[Leviticus]*
-
-1.3. The agent **MUST NOT** reference, foreshadow, or illustrate with content from a later section before the manuscript formally reaches it — even briefly, even as a passing aside. *(Confirmed: Conrad cut a flood reference from the Genesis 4 section because the flood isn't taught until Genesis 6–9; the original source had an identical margin comment flagging this same error.)* *[Leviticus]* The same applies **across the series**: content from next week's book (or later) **MUST** appear only as a labeled, optional aside that says when the class will cover it properly. *(Confirmed: Conrad kept Garrett's Numbers 6 / Nazirite-vow example only as an "if time" aside, because Numbers is next week's lesson. He also rejected a same-book swap the agent proposed (Lev 9:2–4) as "not compelling", so the agent should offer the teacher's or co-teacher's example in optional form rather than substitute its own.)* Back-references to *earlier* classes are welcome, but the agent **MUST** confirm with the teacher what was actually taught (e.g. "last week Exodus 20–40 was taught as a chiasm with God's grace at the center").
-
-1.4. The agent **MUST NOT** silently resolve theological, sequencing, or logical problems in the source. It **MUST** flag them to the teacher instead. See §5.
-
-1.5. The agent **MUST NOT** silently apply a style/context file that doesn't match the manuscript's genre (e.g. a software-engineering style guide). It **MUST** say so and ask before proceeding.
-
-1.6. *[Leviticus — new]* Manuscript and speaking notes **MUST** stay in sync. Every change made to one, including a teacher's direct edit to only one of them (e.g. Conrad changed "slaughter" → "technique" in the notes only), **MUST** be carried into the other in the same words unless the teacher says otherwise. Extends §3.10.
+**Terms used in the rules**
+- **Teacher:** the person the agent is working for. The teacher teaches the class from the speaking notes and makes the final call.
+- **Co-teacher:** a peer who also teaches in the series and comments on drafts.
+- **Report / flag:** the report is the agent's written reply after each pass. To flag something is to say so there (what, where, why, and what the agent did or proposes) instead of resolving it silently.
+- **`[TAKE QUESTIONS]`:** the marker for the Q&A at the end of the lesson. The teaching budget runs up to it (§8.1).
+- **`[PRAY]`:** the marker for a prayer (§3.4).
+- **Gray / black text:** gray text is droppable (optional asides, cited-only verses); black text is what the teacher plans to say. Only black text counts toward timing (§4.2, §8.2).
 
 ---
 
-## 2. Voice rules — confirmed
+## 1. Absolute rules (both outputs)
 
-*(Confirmed: tested against a real hand-edit pass and returned completely untouched.)*
+Hard limits. They apply to both outputs.
 
-2.1. The agent **SHOULD** cut unexplained jargon. If a technical/theological term is used, the agent **SHOULD** pair it with an immediate plain-language anchor — either a short definition or a concrete analogy (everyday objects/experience beat abstract restatement). It is **RECOMMENDED** to explicitly flag a term as jargon when defining it (e.g. "the fancy word for this is —"), rather than defining it silently. Terms **MAY** be kept if they follow this pattern; a term **MUST NOT** appear as the sole explanation of an idea with no plain-language version nearby. *(Leviticus examples that held up: Septuagint, chiasm, regulative principle, atonement as "at-one-ment", the regular offerings as "wiping up spills" vs. the Day of Atonement as "the yearly deep clean".)*
+1.1. **Scripture is never altered.** The agent **MUST NOT** alter any Scripture quotation, whether a full block quote or a short inline phrase in quotation marks (for example "and then he died"). Verse numbers and the translation tag (for example "(ESV)") **MUST** be reproduced exactly, whether or not the source formatted the text as a quotation. The one exception is Scripture verification (§7): non-ESV or mis-transcribed text is corrected to the ESV only with the teacher's approval.
 
-2.2. The agent **SHOULD** use conversational contractions throughout ("we're," "don't," "here's") rather than formal register.
+1.2. **Structure changes only on request.** The agent **MUST NOT** change section order, count or scope on its own initiative.
+- Section headings **MAY** be reworded for voice (for example "Theme and Outline" → "The Big Idea and the Roadmap").
+- Sections **MUST NOT** be merged, split, reordered or moved unless the teacher explicitly asks, or endorses a co-teacher's request (§5.2).
+- When a reorder is requested, the agent **MUST** check and update every cross-reference to match (a closing summary that lists earlier themes, a "this discussion leads to our next theme" transition). Don't move blocks of text and leave stale ordinal language behind.
+- Merging or reordering paragraphs *within* a section at the teacher's request is fine (for example explaining the grain and peace offerings together).
 
-2.3. Discussion questions intended for the class **SHOULD** be pulled onto their own standalone bold or bold-italic line, separate from surrounding prose, with any stage direction (e.g. "[Wait for a few answers]") attached to that same line. *[Leviticus]* **Default: no live questions during the lesson.** Conrad takes questions only at the end, so every mid-lesson question (including "[WAIT FOR SOMEONE TO ANSWER]" pauses in the source) becomes a rhetorical question the teacher asks and answers himself. In the speaking notes these get the lead-in **Ask (rhetorical):**. Real discussion questions (e.g. a co-teacher's starter questions) go under [TAKE QUESTIONS] with the lead-in **Ask the class:**. *(Confirmed: Conrad's instruction on the Leviticus manuscript.)*
+1.3. **No spoilers; back-references.**
+- **Within the lesson.** The agent **MUST NOT** reference, foreshadow or illustrate with content from a later section before the manuscript reaches it, even briefly, even as a passing aside. *Example:* a flood reference was cut from the Genesis 4 section, because the flood is taught in Genesis 6–9.
+- **Across the series.** Content from next week's book or later **MUST** appear only as a labeled, optional aside that says when the class will cover it properly. *Example:* the Nazirite vow (Numbers 6), kept only as an "if time" aside.
+  - The agent **SHOULD** prefer examples from the current passage or the nearest earlier material, and **SHOULD** offer a far-ahead example only as a flagged, removable option. *Example:* a Jeremiah 21:3–5 example was cut because Psalm 130 and Titus 2:14 already carried the point.
+  - The agent **SHOULD NOT** substitute its own example for the teacher's or a co-teacher's. Offer theirs in optional form. (A same-book swap the agent proposed was rejected.)
+- **Back-references to earlier classes.** These are welcome. The agent **MUST** confirm with the teacher what was actually taught (for example "last week Exodus 20–40 was taught as a chiasm with God's grace at the center"), and **SHOULD** name the earlier class in the back-reference ("a couple of weeks ago when studying Leviticus"), not just "a couple of weeks ago".
 
-*[Deuteronomy — narrowed]* Turning a question into a rhetorical one is not the same as keeping it. The agent **SHOULD** keep a rhetorical question only when it names a real puzzle or tension the class would actually wonder about, and the next beats answer it. Otherwise it **SHOULD** state the point as a plain sentence. Kept on Deuteronomy:
-- "Why stop at the border… to listen to sermons?"
-- "What does that love look like?"
-- "How are we supposed to make sense of all these laws?"
-- "Is Deuteronomy about earning God's blessing, or receiving it as a gift?"
+1.4. **Don't silently resolve problems.** The agent **MUST NOT** silently resolve theological, sequencing or logical problems in the source. It **MUST** flag them to the teacher instead (§5.1).
 
-The agent **SHOULD NOT** write:
-- "X? Y." teasers: "The greatest curse of all? Exile."
-- Tag questions: "…but we still don't know how to apply it, do we?"
-- Transition questions: "What will it look like to obey that charge…? God tells them…", "How do we fight that temptation?"
-- Questions that presume the class's experience: "Why might this be the toughest section in our own Bible reading?"
+1.5. **Genre mismatch: say so and ask.** The agent **MUST NOT** silently apply a style or context file that doesn't match the manuscript's genre (for example a software-engineering style guide). It **MUST** say so and ask before proceeding.
 
-*(Confirmed: after a recorded dry run, Conrad rewrote every one of these as a statement: "the rhetorical questions didn't fit what I actually wanted to say (though in the couple places I kept them they did fit nicely).")* This applies to the manuscript as well as the notes, and the agent **SHOULD NOT** add rhetorical questions the source doesn't have.
-
-2.4. *[Leviticus — downgraded from SHOULD to MAY]* The agent **MAY** propose a concrete everyday illustration to open the manuscript, but **SHOULD** offer it as a flagged, removable draft rather than build it in. An illustration earns its place only if the lesson calls back to it later. *(Conrad cut the Leviticus opener, a surgeon scrubbing in, as "not really helpful" after checking it against the rest of the content. It was never referred to again.)*
-
-2.5. Each teaching section **SHOULD** carry a single bold, one-sentence theme statement directly under its heading, before Scripture is read. *[Leviticus]* The opening welcome/Introduction section is exempt. *(Conrad cut it there: "Not sure this needs to be here.")* Conrad reads the theme lines aloud from the speaking notes, so they count toward timing (§9). *[Deuteronomy]* Because the theme line is read aloud, the section's first bullet (often the **Open:**) **MUST NOT** restate it. *(Conrad cut the Prologue's Open and Emphasize lines, which repeated "just and merciful" straight after the theme line said it.)*
-
-2.6. Before unpacking a passage in detail, the agent **SHOULD** use a short, direct topic sentence that states what the passage is fundamentally about (e.g. "What's the subject of that first sentence? God.").
+1.6. **Manuscript and notes stay in sync.** Every change made to one, including a teacher's direct edit to only one of them, **MUST** be carried into the other in the same words unless the teacher says otherwise. *Examples:* the teacher changes "slaughter" → "technique" in the notes only; the teacher adds a one-sentence connection to earlier material (such as Moses not being from the line of Judah, which the class saw at the end of Genesis).
 
 ---
 
-## 3. Voice and content rules — new, from hand-edit
+## 2. Voice
 
-*(Each rule cites the specific edit or margin comment it's derived from.)*
+How the writing sounds. Applies to both outputs unless marked.
 
-3.1. The agent **SHOULD** define a term the first time it's used if it's central to the argument, even if the term is an everyday word being used in a specific theological sense (glory, holy, grace, image, dominion). *(Conrad added: "When we say 'glory' here we mean God getting right praise for...")* *[Leviticus — confirmed scope]* This applies to **every** key term, proactively, not just ones a margin comment flags. *(Conrad: "Define all of them.")*
+2.1. **Define terms.** The agent **SHOULD** cut unexplained jargon, and **SHOULD** define every key term the first time it is used, proactively and not only where a comment flags it.
+- **What counts as a key term.** Theological or technical terms, and everyday words used in a special sense (glory, holy, grace, image, dominion). Ordinary words in their ordinary sense (just, merciful) are not key terms and **SHOULD NOT** get a **Define:** line.
+- **Define once,** where the term is first needed. No "(more in a minute)" pre-definition followed later by the real one.
+- **Prefer the Bible's word.** Where the class's Bibles already supply a word, use it rather than introducing a new term that then needs defining: *the LORD*, not *Yahweh* plus a definition.
+- **Anchor jargon in plain language.** Pair a term with an immediate short definition or a concrete analogy (everyday objects and experience beat abstract restatement). *Example:* atonement as "at-one-ment"; the regular offerings as "wiping up spills" and the Day of Atonement as "the yearly deep clean".
+- **Flag jargon as jargon.** The agent **SHOULD** say a term is jargon when defining it ("the fancy word for this is —") rather than defining it silently. A term **MAY** stay if it follows this pattern. A term **MUST NOT** be the sole explanation of an idea with no plain-language version nearby.
+- **Don't assume church history.** A cited historical figure gets a short identifier, and any term the identifier uses is glossed too. *Example:* "Martin Luther, an early Protestant church leader from the 1500s", then a gloss for "Protestant".
 
-*[Deuteronomy — narrowed]* What counts as a "key term":
-- **Yes:** theological or technical terms, and everyday words used in a special sense.
-- **No:** ordinary words used in their ordinary sense (just, merciful). These **SHOULD NOT** get a **Define:** line.
+2.2. **Contractions.** The agent **SHOULD** use conversational contractions throughout ("we're," "don't," "here's") rather than a formal register.
 
-How to define:
-- Define each term **once**, where it's first needed. No "(more in a minute)" pre-definition followed later by the real one.
-- Where the class's Bibles already supply a word, prefer it over introducing a new term that then needs defining: *the LORD*, not *Yahweh* plus a definition.
+2.3. **Topic sentence.** Before unpacking a passage in detail, the agent **SHOULD** use a short, direct topic sentence that states what the passage is fundamentally about. *Example:* "The subject of that first sentence is God."
 
-*(Conrad: "Could just say LORD here to save a bit of time. I don't think we add much by using and defining Yahweh." On the dry-run notes he cut the just/merciful definitions and grayed out the covenant pre-definition.)*
+2.4. **Short, modular paragraphs (manuscript).** In argumentative or exegetical paragraphs, the agent **SHOULD** prefer slightly shorter, more modular paragraphs over long fused ones, so the teacher can insert one more cross-reference or detail without restructuring the paragraph.
 
-The audience is not assumed to know church history. A cited historical figure gets a short identifier ("Martin Luther, an early Protestant church leader from the 1500s"), and any term that identifier uses gets glossed too ("Protestant"). *(Conrad: "I don't want us to take for granted that everyone in the class just knows this guy cause I say his last name… not everyone in the class… would know what the reformation is.")*
+2.5. **Knowledge gaps and absolutes.** The agent **SHOULD NOT** phrase a knowledge gap as flat, total ignorance. It **SHOULD** use partial-knowledge framing instead ("we don't fully know," "we don't know everything, but—") unless the source is deliberately making a rhetorical point of total mystery. *Example:* avoid "Honestly — I don't know".
+- The same goes for flat "no" and "never" answers that the text contradicts. *Example:* "Is there any provision for the people to be reunited with God after they've sinned? No." clashed with Leviticus 4's repeated "and he shall be forgiven", so it was rewritten.
+- Flat claims of total certainty or total ignorance ("we know," "we don't know," "always," "never") are possible accuracy issues. When one is clearly not deliberate, the agent **SHOULD** rewrite it and list each change in the report (§5.1). If it is unclear whether the claim is deliberate, leave the text and flag it.
 
-3.2. The agent **SHOULD** preserve or add class-logistics/scope-setting framing near the start of the manuscript (e.g. staying on the "main storyline," deferring tangents to small group or another named venue, noting time for questions at the end) rather than treating it as non-content and cutting it. If the source lacks this framing but a margin comment or note requests it, the agent **SHOULD** add it or flag it as a proposed addition rather than omitting it silently. *(Conrad added a full framing paragraph naming a co-teacher and deferring detailed questions; the original source had a matching margin comment requesting exactly this.)* *[Leviticus]* The agent **SHOULD NOT** add a co-teacher framing paragraph (naming Garrett) unprompted. *(Offered on Leviticus; Conrad didn't take it.)*
+2.6. **Questions.** By default there are no live questions during the lesson. The teacher takes questions only at the end, under `[TAKE QUESTIONS]`. This applies to the manuscript and the notes.
+- Each mid-lesson question in the source (including "[WAIT FOR SOMEONE TO ANSWER]" pauses) **SHOULD** be kept as a rhetorical question, asked and answered by the teacher, only when it names a real puzzle or tension the class would actually wonder about and the next beats answer it. Otherwise it **SHOULD** become a plain statement. *Examples kept:* "How are we supposed to make sense of all these laws?"; "Is Deuteronomy about earning God's blessing, or receiving it as a gift?"
+- The agent **SHOULD NOT** write:
+  - "X? Y." teasers: "The greatest curse of all? Exile."
+  - Tag questions: "…but we still don't know how to apply it, do we?"
+  - Transition questions: "How do we fight that temptation?"
+  - Questions that presume the class's experience: "Why might this be the toughest section in our own Bible reading?"
+- The agent **SHOULD NOT** add rhetorical questions the source doesn't have.
+- Real discussion questions (for example a co-teacher's starter questions) go under `[TAKE QUESTIONS]`, with any stage direction (for example "[Wait for a few answers]") on the same line. In the notes the lead-ins are **Ask (rhetorical):** and **Ask the class:** (§6.5). Layout: §4.3.
 
-3.3. The agent **SHOULD NOT** phrase a knowledge gap as flat, total ignorance ("Honestly — I don't know"). It **SHOULD** use partial-knowledge framing instead ("we don't fully know," "we don't know everything, but—") unless the source is deliberately making a rhetorical point of total mystery. If unsure which case applies, the agent **SHOULD** flag it per §5 rather than guess. *(Conrad's edit matched a margin comment on the original: "We know at least a few reasons. This is just false.")* *[Leviticus]* The same goes for flat "no/never" answers that the text contradicts. *(Example: "Is there any provision for the people to be reunited with God after they've sinned? No." That clashed with Lev 4's repeated "and he shall be forgiven" and was rewritten.)*
+---
 
-3.4. When a rhetorical question or theme is clearly meant to recur across multiple future classes in the series (not just resolve within the current one), the agent **SHOULD NOT** front-load a full list of illustrative examples at first mention. It **SHOULD** state the question once and explicitly tell the audience to watch for it later, trusting recurrence over exhaustive illustration. *(Conrad cut a 3-example list down to one forward-pointing sentence: "The narrative of the Old Testament will raise this question week after week... keep an eye out for it.")*
+## 3. Content choices
 
-3.5. If the teacher or church tradition has a standard theological shorthand phrase for a concept in the passage (e.g. "God's people, in God's Place, under God's rule"), the agent **SHOULD** include it verbatim as a labeled callout alongside the plain-English explanation, not paraphrase around it unnamed. If the agent doesn't know whether such a phrase exists, it **SHOULD** ask. *(Conrad added this exact phrase as a callout.)* *[Leviticus]* Offered as an addition on Leviticus and not taken. *[Deuteronomy — changed]* It is now a standing theme. Conrad: "If there is a logical place to bring in 'God's People, in God's Place, under God's rule' then we should as we've mentioned it as a key theme each week in class." The agent **SHOULD** bring it in wherever it fits. On Deuteronomy it went in the Context section, where the land is the one piece still missing (the "place"), and was echoed at 12:1. Refer to it as used "since the start of this class," not "all series."
+What to include, keep, demote or leave out. Applies to both outputs unless marked.
 
-3.6. If the source manuscript contains handout/page sync markers (e.g. "HANDOUT PAGE 2"), the agent **MUST** preserve them in the rewrite at the matching point, even if they interrupt prose flow. *(Conrad re-added three page markers the rewrite had dropped.)*
+### Lesson framing and shape
 
-3.7. In argumentative/exegetical paragraphs, the agent **SHOULD** prefer slightly shorter, more modular paragraphs over long fused ones, so the teacher can insert one more cross-reference or detail without restructuring the paragraph. *(Conrad inserted a specific cross-reference — the post-flood dominion mandate — into an existing paragraph during hand-edit.)*
+3.1. **Theme statement.** Each teaching section **SHOULD** carry a single one-sentence theme statement directly under its heading, before Scripture is read. The opening welcome/Introduction section is exempt. The teacher reads it aloud from the notes, so it counts toward timing (§8.2) and the section's first bullet doesn't repeat it (§6.6). Style: §4.5 and §4.9.
 
-3.8. When illustrating a pattern, the agent **SHOULD** prefer examples from the current passage or the nearest earlier material over examples that jump far ahead in redemptive history, if a nearer one serves the point and later classes will cover the distant one. The agent **SHOULD** offer the far-ahead example as a flagged, removable option rather than a fixed part of the draft. *(Conrad cut the Jeremiah 21:3–5 "exile as reversed Exodus" example from Theme IV, reasoning that Psalm 130 and Titus 2:14 already carry the point and Jeremiah belongs to a later class.)* See also §1.3 (Numbers 6 aside).
+3.2. **Opening illustration.** The agent **MAY** propose a concrete everyday illustration to open the manuscript, but **SHOULD** offer it as a flagged, removable draft rather than build it in. An illustration earns its place only if the lesson calls back to it later. *Example:* a surgeon scrubbing in, cut because the lesson never referred to it again.
 
-3.9. When a Scripture passage is making a point the teacher wants to land, the agent **SHOULD** quote the key verses in full rather than abbreviating with ellipses or describing them in a paraphrased sentence. *(Conrad expanded the Romans 1:24–25 mention from an inline paraphrase into a full block quote.)* Where a leading ellipsis is used only to skip a connecting word (e.g. "... gave himself" in Titus 2:14), it **MAY** stay if the teacher has accepted it. *[Leviticus]* Conversely, when a chapter repeats the same phrase several times, read the one best verse and *say* that the chapter keeps returning to it, rather than reading every instance. *(Conrad: read Lev 3:5 for "a food offering with a pleasing aroma to the LORD" and note it recurs, "without reading all the quotes.")* *[Deuteronomy]* To start a quote partway into a verse, a leading ellipsis is preferred over a bracketed insertion. *(Conrad changed "[When you] return to the LORD…" (Deut 30:2) to "...return to the LORD…" in his notes.)*
+3.3. **Class logistics framing.** The agent **SHOULD** preserve or add class-logistics and scope-setting framing near the start of the manuscript (for example staying on the "main storyline," deferring tangents to small group or another named venue, noting time for questions at the end) rather than treating it as non-content and cutting it.
+- If the source lacks this framing but a margin comment or note requests it, the agent **SHOULD** add it, or flag it as a proposed addition, rather than omit it silently.
+- The agent **SHOULD NOT** add a framing paragraph that names a co-teacher unprompted.
 
-3.10. When the teacher adds a one-sentence connection to earlier material (e.g. noting that Moses is not from the line of Judah, which the class saw at the end of Genesis), the agent **SHOULD** carry it into both the manuscript and the speaking notes in the same words. Generalized by §1.6.
+3.4. **Lesson shape.** A lesson **SHOULD** have this shape in both outputs (§1.6):
+- **Opening prayer.** A `[PRAY]` marker goes after the Introduction, before the first teaching section. There is no closing `[PRAY]`.
+- **Closing recap.** Just before `[TAKE QUESTIONS]`, restate the book's outline as a numbered list matching the Structure section, with the last item tied to the lesson's final point (for example "…and the greater prophet that is to come").
+- **Count the outline items** against the book's real divisions, so that a description line doesn't get its own number (a draft that did this turned four parts into five).
 
-3.11. *[Leviticus — new]* **Footnotes are for reference material, not teaching.** The teacher doesn't read footnotes aloud, so content that is part of the argument or the application (key verses, a "so what for the Christian" paragraph) **SHOULD NOT** be parked in a footnote. If the source has teaching content in a footnote, the agent **SHOULD** flag it and offer to move it into the text. *(Garrett: "may want to work these verse references into the actual manuscript" and "a good paragraph to help flesh out the so what for the Christian." Both footnotes were moved into the text; only the dating footnote stayed.)*
+3.5. **Recurring themes.** When a rhetorical question or theme is clearly meant to recur across several future classes (not just resolve within this one), the agent **SHOULD NOT** front-load a full list of illustrative examples at first mention. It **SHOULD** state the question once and explicitly tell the audience to watch for it later, trusting recurrence over exhaustive illustration. *Example:* a three-example list cut down to one forward-pointing sentence such as "keep an eye out for it".
 
-3.12. *[Leviticus — new]* **Optional asides are how additions survive time pressure.** When a comment proposes an interesting but non-essential addition (a side note, a tangent the teacher "may hit if needed"), the default is a gray "(Optional, if time: …)" aside, not main text. *(Confirmed: Conrad made the cleanliness-laws health note, the Nazirite vow, and the regulative principle optional asides, and skips all gray asides when timing a run-through.)*
+3.6. **Standing shorthand phrase.** If the teacher or church tradition has a standard theological shorthand phrase for a concept in the passage, the agent **SHOULD** include it verbatim as a labeled callout alongside the plain-English explanation, not paraphrase around it. If the agent doesn't know whether such a phrase exists, it **SHOULD** ask.
+- "God's People, in God's Place, under God's rule" is a standing weekly theme. The agent **SHOULD** bring it in wherever it fits. *Example:* in a Context section where the land is the one piece still missing (the "place").
+- Refer to it as used "since the start of this class", not "all series".
 
-3.13. *[Leviticus — new]* **Theological framing defaults to the church's tradition.** When the teacher asks for new or reworked doctrinal content, the agent **MUST** cross-check it against Reformed Baptist teaching and cite what it checked: the 1689 London Baptist Confession, plus sources such as the Reformation Study Bible, Ligonier and TGC. *(Conrad: "cross check it against reformed baptist thought on the topic so that we're not saying anything crazy.")* Minority or speculative readings (e.g. health benefits as the reason for the purity laws) **SHOULD** be framed as secondary to the reason the text itself gives.
+### Examples, imagery and Scripture use
 
-3.14. *[Deuteronomy — new]* **Tie-ins to the church's recent preaching.** Conrad likes to connect the lesson to sermons the class has heard. On Deuteronomy:
-- Hebrews 11, the chapter the church preached through in 2024 and 2025, went into the main text.
-- Pastor Adam's four aspects of right belief about God (his name, his works, his character, his salvation), from the Sunday before class, expanded a one-line "depend on God" application.
+3.7. **Quoting key verses.** When a Scripture passage is making a point the teacher wants to land, the agent **SHOULD** quote the key verses in full rather than abbreviating with ellipses or describing them in a paraphrased sentence. *Example:* Romans 1:24–25 as a block quote instead of an inline paraphrase.
+- When a chapter repeats the same phrase several times, the agent **SHOULD** read the one best verse and *say* that the chapter keeps returning to it, rather than reading every instance. *Example:* read Leviticus 3:5 for "a food offering with a pleasing aroma to the LORD" and note that it recurs. Instances the manuscript only cites are cited-only verses in the notes (§6.4).
+- How quotes are typeset, including ellipses: §4.1.
 
-Before drafting, the agent **SHOULD** ask whether a recent sermon connects. It **MUST NOT** guess what a sermon said, and it **SHOULD** use the teacher's own wording for the credit ("Pastor Adam") and the timing ("last Sunday", counted from the teaching date, not the drafting date).
+3.8. **Imagery for a modern audience.** When a biblical image might not land with the class, the agent **MAY** offer a parallel image as an optional aside, and **MAY** use a plainer word in the teacher's own prose. Scripture quotations always keep their original wording (§1.1). *Example:* for circumcision of the heart, the horse and bridle of Psalm 32:8–9 as an aside, or "soften their hearts" in the prose.
 
-3.15. *[Deuteronomy — new]* **Another author's emphasis marks.** The Deuteronomy source came from a different author, who had marked in red the points they thought important. The agent **SHOULD**:
-- carry that emphasis into the standard format: theme lines (§2.5), and **Emphasize:** / **Land it:** lines in the notes;
-- protect those points from timing cuts;
+### Source material and additions
+
+3.9. **Handout markers.** If the source manuscript contains handout page sync markers (for example "HANDOUT PAGE 2"), the agent **MUST** preserve them in the rewrite at the matching point, even if they interrupt prose flow. Format: §4.7. In the notes: §6.7.
+
+3.10. **Footnotes: reference only.** The teacher doesn't read footnotes aloud, so content that is part of the argument or the application (for example key verses, or a "so what for the Christian" paragraph) **SHOULD NOT** be parked in a footnote. If the source has teaching content in a footnote, the agent **SHOULD** flag it and offer to move it into the text. Footnote format: §4.6.
+
+3.11. **Optional asides.** When a comment proposes an interesting but non-essential addition (a side note, or a tangent the teacher "may hit if needed"), the agent **SHOULD** make it an optional aside rather than main text, so that additions survive time pressure. Format: §4.2. In the notes: §6.7.
+
+3.12. **Theological cross-check.** When the teacher asks for new or reworked doctrinal content, the agent **MUST** cross-check it against Reformed Baptist teaching and cite what it checked: the 1689 London Baptist Confession, plus sources such as the Reformation Study Bible, Ligonier and TGC. Minority or speculative readings **SHOULD** be framed as secondary to the reason the text itself gives. *Example:* health benefits as the reason for the purity laws.
+
+3.13. **Sermon tie-ins.** The teacher likes to connect the lesson to sermons the class has heard. Before drafting, the agent **SHOULD** ask whether a recent sermon connects.
+- The agent **MUST NOT** guess what a sermon said.
+- The agent **SHOULD** use the teacher's own wording for the credit (title and name) and for the timing ("last Sunday", counted from the teaching date, not the drafting date).
+
+*Example:* a pastor's outline from the previous Sunday expanded a one-line application.
+
+3.14. **Emphasis marks in the source.** When a source marks points as important with color or other markup (for example red text), the agent **SHOULD**:
+- carry that emphasis into the standard format: theme lines (§3.1), and **Emphasize:** / **Land it:** lines in the notes (§6.5);
+- protect those points from timing cuts (§8.4);
 - drop the color from both outputs.
 
-The red marked transitions and key verses as well as big ideas, so it read best as the author's "must-say" path through the lesson, not a list of main points. *(Conrad: "move the information the text color was trying to communicate into our standard format.")*
-
-3.16. *[Deuteronomy — new]* **Lesson shape.**
-- **Opening prayer:** a **[PRAY]** marker after the Introduction, before the first teaching section. There is no closing [PRAY] (Conrad deleted one on Leviticus).
-- **Closing recap:** just before **[TAKE QUESTIONS]**, restate the book's outline as a numbered list matching the Structure section, with the last item tied to the lesson's final point (Deuteronomy: "…and the greater prophet that is to come"). *(Conrad added this in his dry-run edit.)*
-- **Count the outline items** against the book's real divisions. Conrad's draft gave a description line its own number and so turned four parts into five.
-- **Name the earlier class** in back-references: "a couple of weeks ago when studying Leviticus", "some of this will feel familiar from our discussion on Leviticus!", not just "a couple of weeks ago".
-
-3.17. *[Deuteronomy — new]* **Imagery for a modern audience.** When a biblical image may not land (e.g. circumcision of the heart), Conrad may want a parallel image as an optional aside (Ps 32:8–9, the horse and bridle). In his own prose he may also use a plainer word ("soften their hearts"). Scripture quotes always keep their original wording (§1.1).
+The marks often cover transitions and key verses as well as big ideas, so read them as the author's "must-say" path through the lesson, not a list of main points.
 
 ---
 
-## 4. Formatting conventions (docx output, Manuscript type)
+## 4. Formatting conventions (docx output)
 
-4.1. Section headers **SHOULD** be bold and **MUST** preserve the source's section scope (e.g. "Genesis 1:1–25"); label text **MAY** be changed for voice. (Scope preservation restates §1.2 and is a MUST; bolding is a formatting default and is a SHOULD.)
+The look of the docx files: conventions for both outputs, then Part A (manuscript) and Part B (speaking notes).
 
-4.2. Theme statements **SHOULD** be bold italic, one sentence, placed directly under the section header, before any Scripture.
+### Both outputs
 
-4.3. Scripture block text content **MUST** be verbatim including verse numbers and the "(ESV)" tag (restates §1.1). Indentation, italics, and preserving poetic line breaks as separate lines (e.g. Genesis 3:14–15) are formatting choices and **SHOULD** be followed. OT "LORD" **SHOULD** render in small caps, as the ESV prints it.
+4.1. **Scripture typography.**
+- **Block quotes** **SHOULD** be indented and italic, keep poetic line breaks as separate lines (for example Genesis 3:14–15), and end with "(ESV)".
+- **LORD.** In the manuscript, OT "LORD" **SHOULD** render in small caps, as the ESV prints it. In the notes, "LORD" stays in caps and NT "Lord" stays plain.
+- **Inline quotes** in prose **SHOULD** be italic, with the verse reference and "(ESV)" in plain text **[Provisional]**.
+  - Emphasis the source puts inside a quotation (for example the bold "**my**" in Matthew 26:28) **MUST** be preserved, since it is part of how the verse is being taught.
+  - A partial inline quote **MUST** stop where the ESV text stops. Sentence punctuation the ESV doesn't have there goes outside the closing quotation mark. Do: *"Among those who are near me I will be sanctified"*. Don't: *"Among those who are near me I will be sanctified."*
+- **Starting partway into a verse.** A leading ellipsis is preferred over a bracketed insertion ("...return to the LORD…", not "[When you] return to the LORD…"). A leading ellipsis used only to skip a connecting word (for example "... gave himself", Titus 2:14) **MAY** stay if the teacher has accepted it.
+- **Quote marks.** The outer wrapper is “ ”, and inner quotes alternate ‘ ’ and “ ”. If a verse is quoted mid-quotation and its quote marks are left open at the end, close them so the block is balanced. Use typographic apostrophes (’) throughout.
 
-4.4. Discussion questions **SHOULD** be bold italic on a standalone line, including any "[Wait for a few answers]" stage direction present in the source. See §2.3 for the no-live-questions default.
+4.2. **Gray means droppable.** Optional material **SHOULD** be set in gray so it can be skipped at a glance, and instructor-only logistics notes **SHOULD** use the same gray style. The teacher skips gray text in timed run-throughs, and only black text counts toward timing (§8.2).
 
-4.5. Footnotes **SHOULD** be real docx footnotes rather than inline parentheticals. See §3.11 for what belongs in them.
+| What | Manuscript | Speaking notes |
+|---|---|---|
+| Clarifying aside, optional "if time" item | own paragraph, gray italic, in parentheses, for example "(Optional, if time: …)" | gray italic, bracketed "[If time: …]"; Scripture inside it is gray too |
+| Instructor-only logistics note (for example "the outline doesn't need to be walked through") | own paragraph, gray italic, in square brackets | not specified (§9) |
+| Verse the manuscript only cites | not applicable | quote in gray; intro line tagged "(cited — no need to read aloud)" |
 
-4.6. Handout page markers **MUST** appear as their own short bold/italic line at the matching point (e.g. "*Page 2 of handout*"). See §3.6.
+4.3. **Class questions.** Discussion questions intended for the class **SHOULD** be bold italic on their own line, separate from surrounding prose, with any stage direction (for example "[Wait for a few answers]") on that same line. These are the real discussion questions that go under `[TAKE QUESTIONS]` (§2.6). How kept rhetorical questions are formatted is an open question (§9).
 
-4.7. Bullets **SHOULD** be used for enumerated lists where the source uses them (e.g. takeaway lists).
+### A. Manuscript
 
-4.8. *[New, tentative — from the Exodus build.]* Numbered lists in the source (e.g. the five ways Israel fails as God's "son") **SHOULD** stay numbered in the manuscript, one item per paragraph with a slight left indent. Parallel lists that are meant to map one-to-one (Israel's failures vs. Jesus' obedience) **SHOULD** use identical key words in each item (waters, desert, food, test, worship) so the parallel is visible.
+4.4. **Text and headers (manuscript).** Body text **SHOULD** stay at 12 pt. Section headers **SHOULD** be bold and **MUST** preserve the source's section scope (for example "Genesis 1:1–25"); the label text **MAY** change for voice.
 
-4.9. *[Confirmed in use — Leviticus]* Editorial asides in the manuscript **SHOULD** be set as their own paragraph in gray italic text, wrapped in parentheses. These are clarifying parentheticals that aren't core to the main argument, plus optional "if time" material (§3.12). Instructor-only logistics notes (e.g. "the outline doesn't need to be walked through", "[NT references are listed under the third question]") **SHOULD** use the same gray italic style, wrapped in square brackets. *(Conrad skips all gray parentheticals in timed run-throughs, so the convention works as a visual "droppable" signal.)*
+4.5. **Theme statements (manuscript).** Theme statements (§3.1) **SHOULD** be bold italic, one sentence, directly under the section header, before any Scripture.
 
-4.10. *[New, tentative — from the Exodus build.]* Scripture quoted inside a prose paragraph (as opposed to an indented block) **SHOULD** be italic, with the verse reference and "(ESV)" in plain text. Emphasis the source puts inside a quotation (e.g. the bold "**my**" in Matt. 26:28) **MUST** be preserved, since it is part of how the verse is being taught. *[Leviticus]* A partial inline quote **MUST** stop where the ESV text stops. Sentence punctuation the ESV doesn't have there goes *outside* the quotation marks: *"Among those who are near me I will be sanctified"*. not *"…sanctified."*
+4.6. **Footnotes (manuscript).** Footnotes **SHOULD** be real docx footnotes rather than inline parentheticals. What belongs in them: §3.10.
 
-4.11. *[Tentative — from the Exodus build; layout held up on Leviticus.]* Speaking-notes docx files (output type B) **SHOULD** follow this layout, which §6 describes in prose:
-- *[Deuteronomy]* Body text: **16 pt**, with the title and bullet markers scaled to match (the manuscript stays at 12 pt). Conrad got feedback that he looked down at the podium too much. A pastor who preaches regularly advised larger print, so he can glance down from further back and keep eye contact and vocal projection with about 30 people, unamplified. The notes were built at 18 pt, and Conrad set his teaching copy to 16 pt: "16pt font is the default for now."
-- Title block: centered title ending in "— Speaking Notes", with the class line beneath it.
-- Section headers: same style as the manuscript.
-- Theme statement: one line starting with a bold-italic "Theme statement:" label, followed by the statement in italic.
-- Main beats: round bullets, each starting with a bold lead-in phrase where one applies (§6.3).
-- Supporting detail: sub-bullets that start with an en dash.
-- Scripture units (§6.11), three parts in order:
-  1. Intro line: its own line, bold, starting with "▶", giving book, chapter and verses plus a short why-it-matters clause. *(Technical: render the ▶ with the text-presentation selector U+FE0E and a symbol font, or some viewers show it as an orange emoji.)*
-  2. Quote: the verse text as an indented italic block ending in "(ESV)" (§6.1). Quotes for verses cited inside sub-bullets or numbered items sit one level deeper than the item they belong to.
-  3. Follow-up points: en-dash sub-bullets directly under the quote, indented under it, with the usual bold lead-ins.
-- Class questions: their own line, bold italic, with any stage direction in the same line.
-- Summary and application lines: a light gray left border (§6.9).
-- Optional asides: gray italic, bracketed (§6.8).
-- Cited-only verses: quote in gray, with the "(cited — no need to read aloud)" tag on the intro line (§6.13).
-- Numbered lists: indented under the bullet they belong to (§6.7).
-- The "[TAKE QUESTIONS]" marker: its own bold-italic line, with any starter questions (§2.3) directly under it.
+4.7. **Handout markers (manuscript).** Handout page markers **MUST** appear as their own short bold/italic line at the matching point (for example "*Page 2 of handout*"). Which markers to keep: §3.9.
 
----
+4.8. **Lists (manuscript).** The agent **SHOULD** keep the source's list type.
+- Bulleted lists stay bulleted (for example takeaway lists).
+- Numbered lists stay numbered, one item per paragraph with a slight left indent **[Provisional]**.
+- Parallel lists that map one-to-one **SHOULD** use identical key words in each item so the parallel is visible (for example waters, desert, food, test, worship) **[Provisional]**.
 
-## 5. Flagging protocol
+### B. Speaking notes
 
-The agent **MUST** surface the following to the teacher explicitly rather than resolving them silently:
-
-5.1. Any open/unresolved margin comment or note in the source (sequencing issues, "will probably remove," "may want to elaborate," etc.) — summarize what's open; **MUST NOT** act on it unless the teacher asks. A request like "address my comments" counts as asking: in that case the agent applies §5.6 — resolve each comment directly if it is an unambiguous instruction, and flag it as a decision if it is a judgment call. Without such a request, comments are only summarized.
-
-5.2. Any place where content seems to assume information the audience hasn't reached yet in the manuscript's own sequence — flag even if uncertain. See §1.3.
-
-5.3. Any unhedged claim of total certainty or total ignorance ("we know," "we don't know," "always/never") — flag as a possible accuracy issue. See §3.3.
-
-5.4. Any mismatch between an attached style/context file and the manuscript's actual genre. See §1.5.
-
-5.5. *[New — from the Exodus round, where a co-teacher (Garrett) left comments on the source alongside Conrad's own.]* When more than one person has left comments on the source (teacher + co-teacher), the agent **MUST** treat every commenter's notes as live input, not just the primary teacher's. Where two commenters agree, that's a stronger signal a judgment call should go their way, but the agent still **SHOULD** surface it as a decision rather than applying it silently, since "agree" isn't the same as "the teacher confirmed it for this draft." Where a co-teacher's comment appears to push back on or complicate an earlier decision the primary teacher already made (e.g. "cut this" vs. a later "oh, this gets used later"), the agent **MUST** flag the apparent tension explicitly rather than picking a side — the teacher may have context (like knowing the aside was a joke, or having changed their mind) that isn't visible from the comment text alone. *[Leviticus]* Co-teacher comments **MAY** arrive on an **older version** than the current draft (Garrett commented on v2 after v3 existed). The agent **MUST** map each comment onto the current text and report which still apply and which the newer draft has already addressed. A co-teacher's direct text insertions (e.g. Garrett typed three Q&A questions into the document) count as comments too. Also flag when a co-teacher's additions pull against the teacher's stated constraints, such as time.
-
-5.6. *[New — from the Exodus round.]* Teacher feedback **MAY** arrive as comments alone, with no direct text edits — this is a legitimate and equally authoritative feedback channel, not a lesser one than hand-editing prose. The agent **MUST NOT** treat an edit-free comment-only pass as "nothing changed" or wait for prose edits before acting; each comment gets resolved the same way a hand-edit's implied change would be (apply directly if unambiguous, flag if a judgment call). *[Leviticus]* Feedback may also arrive as **unannounced direct edits** with no comment attached (e.g. "(or groups of people)", a deleted closing [PRAY]). The agent **MUST** diff the returned file against the version it sent, so these aren't missed.
-
-5.7. *[Leviticus — new; confirmed workflow]* **How to run a comment round.** (1) Tell the teacher what will be applied directly, with no questions. (2) Ask the judgment calls, each with a drafted preview of the actual replacement text, so the teacher picks wording rather than a description. (3) When the teacher asks for a plan first ("let me know what change you'd plan"), deliver the plan and **MUST NOT** edit until told to. (4) Report the time impact of the round (§9).
-
-5.8. *[Deuteronomy — new]* **Feedback in a .pages file.** Conrad may return a draft from Apple Pages. A .pages file is a zip of protobuf "IWA" archives, so pandoc can't read it.
-- **Method that worked:** `pip install keynote-parser`, then decode `Index/Document.iwa` with `keynote_parser.codec.IWAFile`. Pages-only message types come through as unknown, but the text and comments decode.
-- **Body text:** the largest `TSWP.StorageArchive`.
-- **Comments:** `TSD.CommentStorageArchive` objects. Replies are linked through `replies`.
-- **Comment anchors:** the main storage's `tableOverlappingHighlight` entries point to `TSWP.HighlightArchive` objects, which point to the comments. The anchor offsets count UTF-16 code units.
-- **Direct edits:** diff the extracted text against the version sent (§5.6).
+4.9. **Speaking-notes layout (notes).** Speaking-notes docx files **SHOULD** follow this layout. **[Provisional]** except items 8 and 9. What the notes contain is in §6.
+1. **Body text** is 16 pt, with the title and bullet markers scaled to match; the manuscript stays at 12 pt. Larger print lets the teacher glance down from further back and keep eye contact and projection with a class of about 30, unamplified. This size is "for now"; revisit it after teaching from the larger notes (§9).
+2. **Title block:** a centered title ending in "— Speaking Notes", with the class line beneath it.
+3. **Section headers:** same style as the manuscript (§4.4).
+4. **Theme statement:** one line starting with a bold-italic "Theme statement:" label, followed by the statement in italic.
+5. **Main beats:** round bullets, each starting with a bold lead-in where one applies (§6.5). Supporting detail: sub-bullets starting with an en dash; a sub-list sits under its bullet. Parallel items inside one bullet get one line each.
+6. **Scripture units** (§6.3), three parts in order:
+   1. *Intro line:* its own line, bold, starting with "▶", giving book, chapter and verses plus a short why-it-matters clause. *(Technical: render the ▶ with the text-presentation selector U+FE0E and a symbol font, or some viewers show it as an orange emoji.)*
+   2. *Quote:* an indented italic block ending in "(ESV)". Quotes for verses cited inside sub-bullets or numbered items sit one level deeper than the item they belong to.
+   3. *Follow-up points:* en-dash sub-bullets directly under the quote, with the usual bold lead-ins.
+7. **Questions and Scripture intro lines** get their own full line, never folded into a denser bullet, and are visually distinct from ordinary bullets (bold italic for questions, "▶" for read cues), so the teacher can find them mid-sentence without re-reading the line. Class questions: §4.3.
+8. **Summary and application lines:** a light gray left border (§6.8).
+9. **Numbered lists and outlines:** numbered, indented under the bullet they belong to, with sub-points as sub-bullets. Restart numbering for each separate list.
+10. **Gray text** (§4.2): optional asides bracketed "[If time: …]"; cited-only verses in gray with the intro-line tag.
+11. **The `[TAKE QUESTIONS]` marker:** its own bold-italic line, with any starter questions directly under it.
 
 ---
 
-## 6. Speaking notes (bullet-point version)
+## 5. Flagging and feedback
 
-**[PARTLY CONFIRMED. Conrad taught from the Exodus 1–19 speaking notes (Oct 2026) and gave feedback on how Scripture is presented: §6.1 and §6.11 are confirmed by him. On Leviticus he confirmed the §6.11 edge cases and the §6.3 lead-in vocabulary, and used the §6.8 gray asides as droppable material. §6.2, §6.4–6.7, §6.9 and §6.10 stay provisional until he comments on them. *[Deuteronomy]* He recorded a dry run from the notes and edited them afterward. That edit kept the §6.9 summary lines and the §6.11 units, added numbering (§6.7), grayed cited-only verses (§6.13), and broke lists into one item per line (§6.14).]**
+How to handle anything that needs the teacher's call, and how to process comments and edits.
 
-6.1. Every Scripture reference in the speaking notes **MUST** be reproduced as a full, verbatim quotation (ESV), so the teacher can read from the notes without opening a Bible. Each reference gets the "▶ Read [reference] aloud" cue where the teacher is meant to stop and read, followed by an indented italic quote block ending in "(ESV)"; references cited in passing inside a sub-bullet (e.g. supporting verses in a list) get the same quote block, indented one level deeper, directly beneath that sub-bullet. A reference **MUST NOT** be left as a bare citation or an "aloud" cue without its text, and a long quote **MUST NOT** be shortened to a "summarize instead" cue. *(Confirmed by Conrad's direct request on the Exodus notes: "I'd like all scripture references there in direct quote form so I can read from one place instead of having to flip through my bible." This supersedes the earlier inline-vs-read-cue split.)* *[Leviticus — see the open question in §7 on cite-only quotes and timing.]*
+5.1. **What to flag.** The agent **MUST** surface the following to the teacher explicitly rather than resolve them silently:
+- Open or unresolved margin comments or notes in the source (sequencing issues, "will probably remove," "may want to elaborate," and so on). Summarize what's open (§5.2).
+- Content that seems to assume information the audience hasn't reached yet in the manuscript's own sequence. Flag it even if uncertain (§1.3).
+- Flat claims of total certainty or total ignorance (§2.5).
 
-6.1a. Where the manuscript already quotes a verse at that location, the notes **MUST** reuse the manuscript's exact wording (including any bracketed glosses and emphasis such as the bold "**my**" in Matt. 26:28). Verses the manuscript only cites **MUST** be fetched from a primary ESV source (esv.org), never typed from memory, and double-checked against a second source when one is reachable. Quote-mark nesting follows the manuscript convention: the outer wrapper is “ ”, and inner quotes alternate ‘ ’ and “ ”; OT "LORD" stays in caps and NT "Lord" stays plain. If a verse is quoted mid-quotation and its quote marks are left open at the end, close them so the block is balanced. Typographic apostrophes (’) are used throughout. The agent **MUST** tell the teacher which verses it could confirm on only one source. See §8 for the verification method.
+5.2. **Comments are peer feedback.** The agent **MUST** treat every comment on a draft as serious input from a co-teacher. It does not need to know who wrote it.
+- The agent **MUST NOT** act on comments until the teacher asks (a request like "address my comments" counts). Until then it summarizes what's open (§5.1).
+- When asked, the agent applies the comments that are unambiguous instructions. It **MUST** put judgment calls to the teacher, each with drafted replacement text, even when several comments agree. Agreement is a stronger signal, and the agent says so, but the call is still the teacher's.
+- If a comment reverses or complicates another comment or an earlier decision, the agent **MUST** flag the tension rather than pick a side. The teacher might know something the comment doesn't show.
+- Comments **MAY** be written on an older draft. The agent **MUST** map each onto the current text and report which still apply and which the newer draft has already handled.
+- Text typed straight into the draft counts as a comment. Comment-only feedback is complete feedback: the agent **MUST NOT** treat it as "nothing changed" or wait for text edits.
+- Direct edits with no comment attached are easy to miss. The agent **MUST** diff the returned file against the version it sent.
+- The agent **SHOULD** flag additions that pull against the teacher's stated constraints, such as the time budget (§8.1).
 
-6.2. Nested bullets **SHOULD** use top-level = main beat, sub-level (en-dash) = supporting detail/example, sub-list under a bullet.
+5.3. **Running a comment round.** The agent **SHOULD** run a comment round in this order:
+1. Tell the teacher what will be applied directly, with no questions.
+2. Ask the judgment calls, each with a drafted preview of the actual replacement text, so the teacher picks wording rather than a description.
+3. When the teacher asks for a plan first ("let me know what change you'd plan"), deliver the plan. The agent **MUST NOT** edit until told to.
+4. Report the time impact of the round (§8.3).
 
-6.3. *[Leviticus — confirmed: standardize]* Bullets **SHOULD** use a bold lead-in phrase so the type of note is scannable at a glance while speaking. The standard vocabulary, kept the same across manuscripts:
-- **Open:**
-- **Emphasize:**
-- **Define:** for a jargon or key-term gloss (§3.1)
-- **Note:**
-- **Land it:** / **Summary line:**
-- **Punchline:**
-- **Application:**
-- **Ask (rhetorical):** for mid-lesson questions (§2.3)
-- **Ask the class:** used only under [TAKE QUESTIONS]
+For notes the teacher edited after a dry run, see §6.10.
 
-*(Conrad: "Standardize.")*
+5.4. **Feedback in a .pages file.** Feedback can come back from Apple Pages as a .pages file. A .pages file is a zip of protobuf "IWA" archives, so pandoc can't read it. This method works:
+1. `pip install keynote-parser`, then decode `Index/Document.iwa` with `keynote_parser.codec.IWAFile`. Pages-only message types come through as unknown, but the text and comments decode.
+2. **Body text:** the largest `TSWP.StorageArchive`.
+3. **Comments:** `TSD.CommentStorageArchive` objects. Replies are linked through `replies`.
+4. **Comment anchors:** the main storage's `tableOverlappingHighlight` entries point to `TSWP.HighlightArchive` objects, which point to the comments. The anchor offsets count UTF-16 code units.
+5. **Direct edits:** diff the extracted text against the version sent (§5.2).
 
-6.4. Discussion questions and Scripture intro lines (the "read aloud" cue, §6.11) **SHOULD** get their own full line, never folded into a denser bullet, and **SHOULD** be visually distinguished from ordinary bullets (bold italic for questions, a leading marker like "▶" for read cues) so a teacher scanning mid-sentence can find them without re-reading the whole line.
+---
 
-6.5. A lightweight sub-header **MAY** be added inside a section for internal navigation even if the source lacks one there, provided it doesn't imply new section-level structure or reorder content. Not yet exercised in practice — no manuscript so far has needed one.
+## 6. Speaking notes
 
-6.6. Logistics framing (§3.2), shorthand phrases (§3.5), and handout markers (§3.6) **SHOULD** be included in condensed/phrase form, matching the manuscript version's content.
+What the speaking notes contain. Layout is in §4.9; Scripture typography in §4.1. Notes only.
 
-6.7. *[New, tentative — from the Exodus draft.]* When the manuscript itself contains a numbered or parallel list (e.g. Israel's failures vs. Jesus' parallel obedience in Matthew 3–4), the speaking notes **SHOULD** preserve it as a numbered sub-list rather than flattening it to plain bullets — the numbering is what makes the one-to-one parallel visually obvious at a glance while teaching. *(Technical: restart numbering for each separate list.)*
+### Scripture in the notes
 
-6.8. *[Confirmed in use — Leviticus]* A short editorial aside or optional "if time" item from the manuscript **SHOULD** be carried into the speaking notes as an explicitly optional, visually de-emphasized note (gray italic, bracketed "[If time: …]"), rather than either cut entirely or given equal visual weight to the main content. Scripture quoted inside an optional aside is grayed out too. The teacher should be able to tell at a glance it's droppable under time pressure.
+6.1. **Every reference is quoted in full.** Every Scripture reference in the speaking notes **MUST** be reproduced as a full, verbatim ESV quotation, so the teacher can read from the notes without opening a Bible. References cited in passing inside a sub-bullet (for example supporting verses in a list) get the same quote block, directly beneath that sub-bullet. A reference **MUST NOT** be left as a bare citation or a cue without its text, and a long quote **MUST NOT** be shortened to a "summarize instead" cue. Layout and indentation: §4.9.
 
-6.9. *[New, tentative — from the Exodus draft.]* At a natural summary or application beat (the sentence that ties a theme together, or the "what does this mean for you" moment), the speaking notes **SHOULD** set that line apart from ordinary bullets — visually distinct (e.g. a left-border/callout treatment) — since it's the line most worth landing precisely, not rushing past mid-bullet-list.
+6.2. **Where the wording comes from.**
+- Where the manuscript already quotes a verse at that location, the notes **MUST** reuse the manuscript's exact wording, including any bracketed glosses and emphasis (such as the bold "**my**" in Matthew 26:28).
+- Verses the manuscript only cites **MUST** be fetched from a primary ESV source (esv.org), never typed from memory, and double-checked against a second source when one is reachable.
+- The agent **MUST** tell the teacher which verses it could confirm on only one source. Method: §7.6. Typography: §4.1.
 
-6.10. *[Amended after the Exodus final pass.]* A Scripture reference that is read or cited more than once in a class (e.g. 14:4, used in the Overview and again in Theme V) **SHOULD** be re-quoted in full each time it appears, with a short note such as "same verse as in the Overview, re-quoted here so you can read it from this page." This replaces the earlier rule to paraphrase repeats as callbacks, because the teacher wants to read from one place without flipping back.
+6.3. **The Scripture unit.** Every Scripture quote in the notes **MUST** be built as three parts, in this order, because this is how the teacher speaks it in the room:
+1. **Intro line.** One line directly above the quote that (a) names the passage as book, chapter and verses (for example "Exodus 12:12–13") and (b) says in a clause why the quote matters at this point in the class. It is a spoken lead-in the teacher can say as written, in the teacher's voice (§2), not a catalogue label like "Key verse:". It **MUST NOT** be a bare citation and **MUST NOT** restate the quote's content word for word. It carries the ▶ marker and bold (§4.9).
+2. **The quote.** The full verbatim ESV text in the indented italic block, ending "(ESV)" (§6.1, §6.2).
+3. **Follow-up points.** What the teacher says after the whole quote has been read, as sub-bullets directly beneath it. These **SHOULD** come from the manuscript's commentary on that verse, in the order the manuscript makes them, and **SHOULD** use the bold lead-ins (**Emphasize:**, **Ask (rhetorical):**, **Land it:**). They **MUST NOT** go before the quote, since the teacher does not comment until the verse has been read.
 
-6.11. *[New, from Conrad's teaching of Exodus 1–19. Confirmed by him.]* Every Scripture quote in the speaking notes **MUST** be built as a three-part unit, in this order, because this is how he actually speaks it in the room:
-
-1. **Intro line.** One line, directly above the quote, that (a) names the passage as book, chapter and verses (e.g. "Exodus 12:12–13") and (b) says in a clause why the quote matters at this point in the class. It is a spoken lead-in the teacher can say as written. It **MUST NOT** be a bare citation and **MUST NOT** restate the quote's content word for word. It replaces the old standalone "▶ Read [reference] aloud" line; the "▶" marker and bold stay, now on the intro line (§4.11).
-2. **The quote.** The full verbatim ESV text in the indented italic block described in §6.1 and §6.1a, ending in "(ESV)".
-3. **Follow-up points.** The points the teacher makes after the whole quote has been read, as sub-bullets directly beneath the quote (en dash, per §4.11). These **SHOULD** come from the manuscript's commentary on that verse, kept in the order the manuscript makes them, and **SHOULD** use the existing bold lead-ins (**Emphasize:**, **Ask (rhetorical):**, **Land it:**). Follow-up points **MUST NOT** be placed before the quote, since the teacher does not comment until the verse has been read.
-
-Edge cases *(both confirmed by Conrad on Leviticus)*:
+Edge cases:
 - If the manuscript makes no further point on a verse, part 3 **MAY** be left out. The agent **MUST NOT** invent filler to complete the unit, and **SHOULD** flag the verse in its report so the teacher can decide whether it needs a point.
-- Where several short verses are cited as a set (e.g. the five "let my people go" refrains, or the five Matthew 3–4 temptation parallels), the list's own lead-in line serves as the intro for the set. Each verse still gets its reference label and full quote. The follow-up point **SHOULD** come once, after the last quote in the set, rather than after every one.
-- A verse that is repeated later in the class (§6.10) gets a fresh intro line whose "why it matters here" clause fits the new spot, not a copy of the first one.
-- Intro lines are written in the teacher's voice (§2), as something he would say, not a catalogue label like "Key verse:".
+- Where several short verses are cited as a set (for example five refrains, or five temptation parallels), the list's own lead-in line serves as the intro for the set. Each verse still gets its reference label and full quote, and the follow-up **SHOULD** come once, after the last quote in the set.
+- A verse repeated later in the class **SHOULD** be re-quoted in full each time, with a short note such as "same verse as in the Overview, re-quoted here so you can read it from this page" and a fresh intro line whose why-it-matters clause fits the new spot **[Provisional]**.
 
-6.12. *[Leviticus — new]* The speaking notes **MUST NOT** lose the manuscript's connective tissue. When a bullet sequence drops the transition the manuscript uses (e.g. "Again, the main lesson for us…"), the jump reads as random. *(Conrad, on the priesthood section: "This seems a random jump. In the manuscript it makes a bit more sense.")* Keep the connective as the bullet's lead-in. *[Deuteronomy]* Conrad's dry-run edit added several more of these ("Chapters 27–30 continue to show…", "The moral, civil, ceremonial framework can help us to interpret and apply them"). Connectives he says aloud belong on the page.
+6.4. **Cited-only verses.** Verses the manuscript only cites still appear in full (§6.1), but the quote **SHOULD** be set in gray and the intro line **SHOULD** carry the tag "(cited — no need to read aloud)". They can then be skipped at a glance, and they don't count toward timing (§8.2). The teacher can move one back into black (it is then read, and counts) or drop it; follow the teacher's version (§6.10).
 
-6.13. *[Deuteronomy — new; resolves the §7 cite-only question]* **Cited-only verses are gray.** Verses the manuscript only cites still appear in full (§6.1), but the quote is set in gray and the intro line carries the "(cited — no need to read aloud)" tag. That way they can be skipped at a glance and don't count toward timing (§9). The teacher may move one back into black and read it (Conrad did this with Matt 5:17), or drop it (Deut 5:17). *(Conrad grayed most cited-only quotes himself in his dry-run edit.)*
+### Writing the bullets
 
-6.14. *[Deuteronomy — new]* **Built to glance at, not read.** With larger print (§4.11) and the teacher standing back from the podium, each line has to work at a glance:
-- Parallel items inside a bullet get one line each. Examples: the heart = the mind / the will / the emotions / the thought life; God's people / God's rule / God's place.
-- An outline is a numbered list, with sub-points as sub-bullets.
-- Each bullet stands alone. Name the thing rather than using a pronoun that points back to an earlier bullet or quote: "did *these laws*", not "did them"; "*The law* is Jesus' portrait", not "They're his portrait".
-- Bullets follow the order the teacher actually speaks in. Conrad moved "picks up right where Numbers leaves off" up to sit right after the Open line it continues.
+6.5. **Lead-ins.** Bullets **SHOULD** use a bold lead-in phrase so the type of note is scannable at a glance while speaking. The vocabulary is kept the same across manuscripts:
+- **Open:** the section's opening line, spoken after the theme line. It leads into the section and does not repeat the theme (§6.6).
+- **Emphasize:** a point to stress when speaking, such as one the source marks as important (§3.14).
+- **Define:** for a jargon or key-term gloss (§2.1).
+- **Note:** a short clarification or caveat said in passing; not a main beat. **[Provisional]**
+- **Land it:** / **Summary line:** the sentence that ties the section's theme together, the line most worth landing precisely (set apart per §6.8).
+- **Punchline:** a short, memorable line that delivers the payoff of the point just made. **[Provisional]**
+- **Application:** the "what does this mean for you" moment: what the class is meant to believe or do in response (set apart per §6.8).
+- **Ask (rhetorical):** for mid-lesson questions (§2.6).
+- **Ask the class:** used only under `[TAKE QUESTIONS]`.
 
-6.15. *[Deuteronomy — new; confirmed workflow]* **After a dry run, the teacher's edited notes are the source of truth.** Conrad recorded a run of the notes, listened back, and edited them "to better fit with what I actually said (or wanted to say on a re-listen)". When notes come back after a dry run, the agent:
-1. diffs them against the version sent, including formatting (gray, numbering, font size), not just text (§5.6);
-2. summarizes the changes by type;
-3. checks the edits for slips the teacher would want caught before teaching (e.g. outline numbering, a stray capital);
-4. carries the changes back into the manuscript per §1.6. Ask first if the class is about to be taught from the notes.
+6.6. **Writing each bullet.** Each bullet **SHOULD** work at a glance, because the teacher stands back from the podium and reads larger print (§4.9).
+- **Each bullet stands alone.** Name the thing instead of using a pronoun that points back to an earlier bullet or quote: "did *these laws*", not "did them".
+- **Bullets follow the order the teacher actually speaks in.**
+- **Keep the manuscript's connective tissue.** The notes **MUST NOT** lose it. When a bullet sequence drops a transition the teacher says aloud ("Again, the main lesson for us…", "Chapters 27–30 continue to show…"), the jump reads as random. Keep the connective as the bullet's opening words.
+- **Don't repeat the theme line.** The section's first bullet (often **Open:**) **MUST NOT** restate the theme line, which is read aloud (§3.1).
 
----
+6.7. **Carrying over from the manuscript.** The notes **SHOULD** carry these over from the manuscript:
+- Logistics framing (§3.3), shorthand phrases (§3.6) and handout markers (§3.9), in condensed form, matching the manuscript **[Provisional]**.
+- Numbered or parallel lists and outlines, kept numbered with sub-points as sub-bullets rather than flattened to plain bullets, because the numbering makes a one-to-one parallel obvious at a glance. Parallel items inside one bullet get one line each.
+- A short editorial aside or optional "if time" item, as a droppable gray note (§4.2), not cut and not given equal weight.
 
-## 7. Open questions for Conrad
+6.8. **Summary and application lines.** At a natural summary or application beat (the sentence that ties a theme together, or the "what does this mean for you" moment), the notes **SHOULD** set that line apart from ordinary bullets, since it is the line most worth landing precisely. Style: §4.9.
 
-**Resolved in the Leviticus round:**
-- §6.11 edge cases (a) one follow-up after a set of short verses and (b) no filler follow-up: both confirmed.
-- §6.3 lead-in vocabulary: standardize (list now in §6.3).
-- §3.1: define every key term proactively, not just flagged ones.
-- Co-teacher framing paragraph naming Garrett: don't add unprompted (§3.2).
-- Live questions mid-lesson: none; rhetorical only, questions at the end (§2.3).
+6.9. **Sub-headers.** A lightweight sub-header **MAY** be added inside a section for navigation, even if the source lacks one there, provided it implies no new section-level structure and reorders nothing. Not yet used in practice. **[Provisional]**
 
-**Resolved in the Deuteronomy round:**
-- Cite-only Scripture in the notes: keep the full text, tag the intro line, and set the quote in gray (§6.13).
-- "God's people, in God's place, under God's rule" is a standing weekly theme (§3.5).
-- Rhetorical questions: keep only the real puzzles; make the rest statements (§2.3).
-- Speaking-notes font size: 16 pt "for now" (§4.11).
+### After a dry run
 
-**Still open:**
-- §6.2, §6.4–6.7, §6.9, §6.10: still first-draft judgment calls. The Deuteronomy dry-run edit kept the §6.9 summary lines and the §6.11 units, and added numbering (§6.7). Confirm the rest once you've taught from notes that use them.
-- 16 pt is "for now": revisit after teaching Deuteronomy from the larger notes.
-- Any other standing shorthand phrases besides "God's people, in God's place, under God's rule" worth listing here?
-- Confirm the Exodus chronological reordering (§1.2) reads the way you wanted.
-- Second-source Scripture check (§8): BibleGateway didn't work from the agent's environment (it served the wrong page, then rate-limited). Is there a second source you'd like used, or is esv.org alone acceptable?
+6.10. **Dry-run edits are the source of truth.** After the teacher records a dry run, listens back and edits the notes to fit what was said (or what the teacher wanted to say), the edited notes are the source of truth. When they come back, the agent **SHOULD**:
+1. diff them against the version sent, including formatting (gray, numbering, font size), not just text (§5.2);
+2. summarize the changes by type;
+3. check the edits for slips the teacher would want caught before teaching (for example outline numbering, a stray capital);
+4. carry the changes back into the manuscript (§1.6), asking first if the class is about to be taught from the notes.
 
 ---
 
-## 8. Scripture verification *(new — Leviticus)*
+## 7. Scripture verification
 
-8.1. When the teacher asks for Scripture to be checked ("we need to check that all these pre-included scripture passages are ESV"), the agent **MUST** check **every** written-out passage in the source, including footnotes, against esv.org. That means three things:
+How to check Scripture text against the ESV.
+
+7.1. **When to run the check.** The agent **MUST** run the Scripture check on every manuscript, not only when asked, and whenever the teacher asks.
+
+7.2. **Report before correcting.** The agent **MUST** report findings before correcting anything, and changes ESV text only with the teacher's approval (§1.1). Once the teacher approves, the agent **SHOULD** reword the discussion as needed around the ESV wording and say why, rather than keep the other translation's word. *Example:* the ESV's "cleanses his people's land" (Deuteronomy 32:43) replaced the NIV's "make atonement", and the lesson now notes that the ESV footnote gives "atones for", the same word Leviticus uses for atonement.
+
+7.3. **What to check, and typical catches.** The agent **MUST** check **every** written-out passage in the source, including footnotes, against esv.org. That means three things:
 - the wording;
 - the verse range (are the verses quoted actually the ones the text names?);
 - the reference given in the surrounding prose.
 
-The agent **MUST** report findings before correcting anything. *(Leviticus found two non-ESV passages (Mark 7:18–23 was NIV, and Lev 16:30 was close to the KJV) and four reference slips:)*
-- "start in verse 22" before a quote of 9:23–24
-- "verses 13–14" for 16:12–13
-- "statute forever" attributed to v. 30 rather than v. 31/34
-- Heb 10:12–14 missing its opening "But"
+Typical catches from past runs: non-ESV wording (NIV, KJV); a dropped opening word (for example "But"); prose that points at the wrong verse or chapter; a wrong speaker or attribution; a count that doesn't add up; a reading announced but never given.
 
-8.2. Scripture text the **teacher or co-teacher types into a comment** **MUST** be verified the same way before use. *(Conrad's pasted Lev 3:5 was missing "the priests".)*
+7.4. **Scripture typed into comments.** Scripture text the teacher or a co-teacher types into a comment **MUST** be verified the same way before use. *Example:* a pasted verse missing a phrase.
 
-8.3. When a verse is newly read aloud instead of only cited, the agent **SHOULD** check that it actually says what the manuscript claims. *(Lev 5:6, cited as the guilt offering, ends "…for a sin offering" in the ESV; Conrad switched the reading to 6:6–7.)*
+7.5. **Newly read-aloud verses.** When a verse is newly read aloud instead of only cited, the agent **SHOULD** check that it actually says what the manuscript claims. *Example:* a verse cited as one kind of offering that turns out to describe another.
 
-8.4. Method that worked: give esv.org the candidate text and ask for a word-for-word comparison. Don't ask it to reproduce the passage, because the site won't serve a full chapter. Load single-chapter pages; multi-chapter pages get truncated. *[Deuteronomy]* The fetch tool also caps direct quotes at about 125 characters, so asking for a verse's text returns fragments, while asking for "every difference, or 'exact match'" works. For poetry, ask separately how the lines break and which are indented.
-
-8.5. *[Deuteronomy — new]* **Run the check on every manuscript, not only when asked.** The Deuteronomy source, from a different author, had two NIV passages (Ps 119:104; Deut 32:43's "avenge the blood of his servants… make atonement for his land") and several reference slips:
-- Luke 10:27 is the lawyer speaking, not Jesus answering the greatest-commandment question; Mark 12:29–30 is Jesus.
-- "Other gods" is in 29:26, not 29:18.
-- Rom 6:14 was cited where Paul's own quote of Deut 27:26 is Gal 3:10, 13.
-- 9:27–29 is Moses' prayer, not "idolatry is deadly" (9:12–14 is).
-- The source counted "70" verses of curses (27:15–26 plus 28:15–68 is 66).
-- "The final verses of Deuteronomy" were announced but never read (34:10 was added).
-
-Conrad: "do make sure every reference matches current ESV[;] we can re-word discussion as needed to account for the translation differences to still make our points." So when the ESV drops a word the argument leaned on, the agent rewords the argument around the ESV and says why, rather than keeping the other translation's word. *(Example: the ESV's "cleanses his people's land" in 32:43 replaced the NIV's "make atonement". The lesson now notes that the ESV's own footnote gives "atones for", which is the same word Leviticus uses for atonement.)*
+7.6. **Method.** This method works:
+1. Load single-chapter esv.org pages. Multi-chapter pages get truncated.
+2. Give the fetch tool the candidate text and ask for "every difference, or 'exact match'".
+3. Don't ask it to reproduce the passage. The site won't serve a full chapter, and the tool caps direct quotes at about 125 characters, so a verse's text comes back as fragments.
+4. For poetry, ask separately how the lines break and which are indented.
 
 ---
 
-## 9. Timing *(new — Leviticus)*
+## 8. Timing
 
-9.1. **Target: 30 minutes** of teaching before [TAKE QUESTIONS], with all gray asides skipped. *(Conrad cut Leviticus from about 36 minutes to about 30.)*
+The time budget for the lesson and how to measure it.
 
-9.2. **Measure against the speaking notes, not the manuscript.** Conrad teaches from the notes, so his timing reflects:
-- the bullets,
-- the ▶ intro lines,
-- every Scripture quote,
-- the theme lines.
+8.1. **Target.** The target is 30 minutes of teaching before `[TAKE QUESTIONS]`, with gray text (optional asides and cited-only verses) skipped.
 
-His Leviticus pace was about **151 words a minute** of notes text. The agent's first cut estimate was wrong because it measured the manuscript, whose prose the bullets don't fully carry. *(Corrected after Conrad pointed out his timing came from the v4 notes.)*
+8.2. **What counts, and pace.** The agent **SHOULD** estimate timing this way:
+- **Measure against the speaking notes, not the manuscript,** because the bullets don't fully carry the manuscript's prose.
+- **Count black text only:** the bullets, the ▶ intro lines, black Scripture quotes and the theme lines. Gray text is skipped.
+- **Pace:** about 155 words a minute (range 150–160), from two measured runs (151 on one lesson, about 160 on another).
+- Report two numbers, one counting black text only and one that also includes the cited-only verses, until a cited-verse convention has held for a few lessons **[Provisional]**.
 
-9.3. Every comment round that adds content **SHOULD** report its time impact in minutes, broken down by addition, so the teacher can weigh additions against the budget as they come in rather than all at the end.
+8.3. **Report time impact.** Every comment round that adds content **SHOULD** report its time impact in minutes, broken down by addition, so the teacher can weigh additions against the budget as they come in rather than all at the end.
 
-9.4. Successive rounds tend to add restatements of points already made (e.g. the same "risked leading all Israel" point in both the original paragraph and a later addition). When cutting for time, a de-duplication pass comes first: on Leviticus it removed about 1,000 manuscript words with no point lost. Shortening Scripture readings comes second, and is the teacher's call. Optional asides are already excluded from the count.
+8.4. **Cutting for time.** Successive rounds tend to add restatements of points already made. When cutting for time, the agent **SHOULD**:
+1. run a de-duplication pass first (on one lesson it removed about 1,000 manuscript words with no point lost);
+2. shorten Scripture readings second, which is the teacher's call;
+3. not count on gray text for savings, since it is already excluded from the count;
+4. protect points the source marks as must-say (§3.14).
 
-9.5. *[Deuteronomy — new]* **Second pace data point.** Conrad's recorded run of the v3 Deuteronomy notes ("a bit choppy") took **30.5 minutes** for about 4,890 words of black text, which is about **160 words a minute**. That count leaves out gray asides and cited-only verses. Use about 155 wpm (range 150–160) for estimates, and count black text only (§6.13). The pre-run estimate that also counted the cited-only verses (about 37½ minutes) overstated the length, so report both numbers until a cited-verse convention has held for a few lessons. His dry-run edit then cut nearly as much as it added: v4 came out within about 50 words of v3's spoken text.
+---
+
+## 9. Open questions for the teacher
+
+Undecided items. Until a question is resolved, follow the rule as currently written.
+
+**Still open**
+- Rules tagged **[Provisional]**: confirm after teaching from notes that use them.
+- The 16 pt size of the speaking notes is "for now": revisit after teaching from the larger notes (§4.9).
+- Any other standing shorthand phrases besides the one in §3.6 worth listing?
+- Confirm the Exodus chronological reordering reads the way you wanted (§1.2).
+- Second-source Scripture check: BibleGateway didn't work from the agent's environment (it served the wrong page, then rate-limited). Is there a second source you'd like used, or is esv.org alone acceptable? (§6.2, §7.6)
+
+**Unclear points in the rules**
+- Do kept rhetorical questions get the standalone bold-italic line, or stay in the prose? (§2.6, §4.3)
+- §6.5 defines "Land it:" and "Summary line:" together, as the source pairs them. Are they two names for one lead-in (pick one per manuscript), or two lead-ins? (§6.5)
+- For a repeated verse, is the "same verse as in the Overview" note in addition to the fresh intro line, or part of it? (§6.3)
+- §1.3 forbids foreshadowing, but §3.5's own example is a forward pointer ("keep an eye out for it"). Is a generic pointer to a recurring theme allowed?
+- Small typography items: OT "LORD" is small caps in the manuscript but caps in the notes; handout markers read "HANDOUT PAGE 2" in the source and "Page 2 of handout" in the output; instructor-only bracketed notes have no stated carry-over into the notes. (§4.1, §4.2, §4.7)
+- §6.6 keeps spoken connectives while also saying each bullet stands alone. Confirm that connectives are fine and back-pointing pronouns are not.
+- §3.7's "read one verse, say it recurs": if the manuscript cites the other instances, do they appear as cited-only gray quotes? (§6.4)
+
+---
+
+*Maintenance: update rules in place. When a new manuscript is hand-edited, change the rule it affects (and drop its **[Provisional]** tag once the teacher confirms it) instead of appending a new one. Put a new rule in the section it belongs to. Don't add per-round tags or "resolved" lists; the repository history is the changelog. Tag only **[Provisional]**. Keep at most one short example per rule.*

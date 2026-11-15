@@ -25,14 +25,14 @@ Attach the file alongside a manuscript (usually a `.docx` with margin comments).
 | 4. Formatting | `.docx` conventions for the manuscript: headers, theme lines, Scripture blocks, gray optional asides, footnotes, and the speaking-notes layout |
 | 5. Flagging protocol | What Claude must raise with the teacher instead of deciding on its own, how to handle comments from more than one teacher, and how a comment round runs |
 | 6. Speaking notes | Bullet structure, the standard lead-ins (Open / Emphasize / Define / Land it / Ask (rhetorical) …), the three-part Scripture unit (intro line, full ESV quote, follow-up points), 16 pt notes built for glancing at the podium, and gray cited-only verses |
-| 7. Open questions | Decisions still waiting on the teacher |
-| 8. Scripture verification | How every passage gets checked against esv.org |
-| 9. Timing | The 30-minute target, measured against the speaking notes at the teacher's actual pace |
+| 7. Scripture verification | How every passage gets checked against esv.org, plus a cross-check of the class handout against the manuscript |
+| 8. Timing | The 30-minute target, measured against the speaking notes at the teacher's actual pace |
+| 9. Open questions | Decisions still waiting on the teacher |
 
 #### How the rules are written
 
-Rules use [RFC 2119](https://www.rfc-editor.org/info/rfc2119/) keywords (**MUST**, **SHOULD**, **MAY** …). Each rule notes where it came from: a hand-edit or comment it was confirmed against, or **[UNCONFIRMED]** if it's still a working default.
+Rules use [RFC 2119](https://www.rfc-editor.org/info/rfc2119/) keywords (**MUST**, **SHOULD**, **MAY** …). A rule tagged **[Provisional]** is a working default the teacher hasn't confirmed yet.
 
 #### Keeping it current
 
-Update the file after each class's edit rounds, and change a rule's status in place rather than appending duplicates. Each revision note at the top says which class's feedback it reflects. Revision 5 reflects the Deuteronomy class (Oct 2026).
+Update the file after each class's edit rounds, and change a rule's status in place rather than appending duplicates. Each revision note at the top says which class's feedback it reflects. Revision 7 reflects the Ruth & Samuel class (Nov 2026).

@@ -9,7 +9,7 @@ The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT** and **MAY** in 
 
 Derived from comparing an original class manuscript, an AI rewrite and the teacher's hand-edit of that rewrite, cross-checked against margin comments, then refined over later manuscripts. Rules are in force unless tagged **[Provisional]** (followed as written, not yet confirmed by the teacher).
 
-*Revision 6 (editorial pass).*
+*Revision 7 (Ruth & Samuel class, Nov 2026).*
 
 Covers two output types: **(A) Manuscript rewrite** — full voice pass, same content and section order. **(B) Speaking notes** — bullet-point version for teaching from, not reading from. The teacher reads the theme lines, the ▶ intro lines and the Scripture quotes as written, and talks through the points in between, so the notes are what the class actually hears.
 
@@ -42,6 +42,7 @@ Hard limits. They apply to both outputs.
 - **Across the series.** Content from next week's book or later **MUST** appear only as a labeled, optional aside that says when the class will cover it properly. *Example:* the Nazirite vow (Numbers 6), kept only as an "if time" aside.
   - The agent **SHOULD** prefer examples from the current passage or the nearest earlier material, and **SHOULD** offer a far-ahead example only as a flagged, removable option. *Example:* a Jeremiah 21:3–5 example was cut because Psalm 130 and Titus 2:14 already carried the point.
   - The agent **SHOULD NOT** substitute its own example for the teacher's or a co-teacher's. Offer theirs in optional form. (A same-book swap the agent proposed was rejected.)
+  - **Series map.** Before framing or flagging a forward reference, the agent **SHOULD** check what the series covers next, and ask if it isn't listed here. Current map: Class 11 is Job, and the term ends with Psalms, Proverbs, and Ecclesiastes and Song of Solomon; Kings and the rest of Israel's history come in OT2 in the spring. Update this line each term. **[Provisional]**
 - **Back-references to earlier classes.** These are welcome. The agent **MUST** confirm with the teacher what was actually taught (for example "last week Exodus 20–40 was taught as a chiasm with God's grace at the center"), and **SHOULD** name the earlier class in the back-reference ("a couple of weeks ago when studying Leviticus"), not just "a couple of weeks ago".
 
 1.4. **Don't silently resolve problems.** The agent **MUST NOT** silently resolve theological, sequencing or logical problems in the source. It **MUST** flag them to the teacher instead (§5.1).
@@ -93,23 +94,30 @@ What to include, keep, demote or leave out. Applies to both outputs unless marke
 ### Lesson framing and shape
 
 3.1. **Theme statement.** Each teaching section **SHOULD** carry a single one-sentence theme statement directly under its heading, before Scripture is read. The opening welcome/Introduction section is exempt. The teacher reads it aloud from the notes, so it counts toward timing (§8.2) and the section's first bullet doesn't repeat it (§6.6). Style: §4.5 and §4.9.
+- **Length and shape.** About 16 words or fewer. A book-level theme **SHOULD** follow the book's outline points in order, so the handout and the lesson reinforce each other. *Example:* "In Ruth, God turns his people's bitterness into blessing through a redeemer—and, one day, a King." (bitterness, then a redeemer, then a King). **[Provisional]**
+- **Scope and tone.** A book-level theme **SHOULD** name its book ("In Ruth, …") so the class doesn't take it as a rule for the whole Old Testament. Its tone **SHOULD** fit the period: a theme that sounds too positive doesn't fit a book set in the time of the judges. **[Provisional]**
+- **Handout themes.** A theme printed on the handout stays word for word unless the teacher asks for options. When asked, the agent **SHOULD** offer options that take different angles (a biblical image, the book's own question, a shorter version of the original), not small variations on one sentence. **[Provisional]**
 
 3.2. **Opening illustration.** The agent **MAY** propose a concrete everyday illustration to open the manuscript, but **SHOULD** offer it as a flagged, removable draft rather than build it in. An illustration earns its place only if the lesson calls back to it later. *Example:* a surgeon scrubbing in, cut because the lesson never referred to it again.
 
 3.3. **Class logistics framing.** The agent **SHOULD** preserve or add class-logistics and scope-setting framing near the start of the manuscript (for example staying on the "main storyline," deferring tangents to small group or another named venue, noting time for questions at the end) rather than treating it as non-content and cutting it.
 - If the source lacks this framing but a margin comment or note requests it, the agent **SHOULD** add it, or flag it as a proposed addition, rather than omit it silently.
 - The agent **SHOULD NOT** add a framing paragraph that names a co-teacher unprompted.
+- In a lesson that surveys one or more whole books, the framing **SHOULD** say the lesson is thematic: the themes are handholds for the details, and some famous (and infamous) stories will only be touched on briefly.
 
 3.4. **Lesson shape.** A lesson **SHOULD** have this shape in both outputs (§1.6):
 - **Opening prayer.** A `[PRAY]` marker goes after the Introduction, before the first teaching section. There is no closing `[PRAY]`.
 - **Closing recap.** Just before `[TAKE QUESTIONS]`, restate the book's outline as a numbered list matching the Structure section, with the last item tied to the lesson's final point (for example "…and the greater prophet that is to come").
 - **Count the outline items** against the book's real divisions, so that a description line doesn't get its own number (a draft that did this turned four parts into five).
+- **More than one book.** In a lesson covering more than one book, each book gets its own theme and its own numbered recap list. **[Provisional]**
+- **Legacy markers.** Older source manuscripts may have several mid-lesson `[TAKE QUESTIONS]` markers or a closing `[PRAY]`. Consolidate them into the single `[TAKE QUESTIONS]` at the end, drop the closing `[PRAY]`, and say so in the report.
 
 3.5. **Recurring themes.** When a rhetorical question or theme is clearly meant to recur across several future classes (not just resolve within this one), the agent **SHOULD NOT** front-load a full list of illustrative examples at first mention. It **SHOULD** state the question once and explicitly tell the audience to watch for it later, trusting recurrence over exhaustive illustration. *Example:* a three-example list cut down to one forward-pointing sentence such as "keep an eye out for it".
 
 3.6. **Standing shorthand phrase.** If the teacher or church tradition has a standard theological shorthand phrase for a concept in the passage, the agent **SHOULD** include it verbatim as a labeled callout alongside the plain-English explanation, not paraphrase around it. If the agent doesn't know whether such a phrase exists, it **SHOULD** ask.
 - "God's People, in God's Place, under God's rule" is a standing weekly theme. The agent **SHOULD** bring it in wherever it fits. *Example:* in a Context section where the land is the one piece still missing (the "place").
 - Refer to it as used "since the start of this class", not "all series".
+- **Terms from earlier classes.** A callback to an earlier class **SHOULD** reuse the term the class actually heard. Taught so far: "progressive deterioration" and "Canaanization" (Judges). Add to this list as classes go. **[Provisional]**
 
 ### Examples, imagery and Scripture use
 
@@ -198,7 +206,7 @@ The look of the docx files: conventions for both outputs, then Part A (manuscrip
    3. *Follow-up points:* en-dash sub-bullets directly under the quote, with the usual bold lead-ins.
 7. **Questions and Scripture intro lines** get their own full line, never folded into a denser bullet, and are visually distinct from ordinary bullets (bold italic for questions, "▶" for read cues), so the teacher can find them mid-sentence without re-reading the line. Class questions: §4.3.
 8. **Summary and application lines:** a light gray left border (§6.8).
-9. **Numbered lists and outlines:** numbered, indented under the bullet they belong to, with sub-points as sub-bullets. Restart numbering for each separate list.
+9. **Numbered lists and outlines:** numbered, indented under the bullet they belong to, with sub-points as sub-bullets. Restart numbering for each separate list. When other material (a quote, a gray verse) interrupts a numbered list, give each item an explicit start number rather than relying on list continuation, and check the numbering when the file comes back from Pages (§5.4). **[Provisional]**
 10. **Gray text** (§4.2): optional asides bracketed "[If time: …]"; cited-only verses in gray with the intro-line tag.
 11. **The `[TAKE QUESTIONS]` marker:** its own bold-italic line, with any starter questions directly under it.
 
@@ -212,6 +220,9 @@ How to handle anything that needs the teacher's call, and how to process comment
 - Open or unresolved margin comments or notes in the source (sequencing issues, "will probably remove," "may want to elaborate," and so on). Summarize what's open (§5.2).
 - Content that seems to assume information the audience hasn't reached yet in the manuscript's own sequence. Flag it even if uncertain (§1.3).
 - Flat claims of total certainty or total ignorance (§2.5).
+- Superlatives and counts about Scripture or history ("greatest," "more than any other," "twice, in chapters 13 and 14"). Check them like Scripture, by search if needed, and flag any that don't hold. *Example:* "the New Testament mentions David more than any other Old Testament figure" (Moses and Abraham are named more often).
+
+**Where flags go.** In a returned .docx, margin comments are for items that need the teacher's decision or point to a real problem. Mechanical fixes (ESV punctuation, typos, a restored word) go in the report as a list, not as comments, so the comment pane holds only what needs a call. **[Provisional]**
 
 5.2. **Comments are peer feedback.** The agent **MUST** treat every comment on a draft as serious input from a co-teacher. It does not need to know who wrote it.
 - The agent **MUST NOT** act on comments until the teacher asks (a request like "address my comments" counts). Until then it summarizes what's open (§5.1).
@@ -236,6 +247,16 @@ For notes the teacher edited after a dry run, see §6.10.
 3. **Comments:** `TSD.CommentStorageArchive` objects. Replies are linked through `replies`.
 4. **Comment anchors:** the main storage's `tableOverlappingHighlight` entries point to `TSWP.HighlightArchive` objects, which point to the comments. The anchor offsets count UTF-16 code units.
 5. **Direct edits:** diff the extracted text against the version sent (§5.2).
+
+Quick alternative: LibreOffice converts a .pages file to .docx (`soffice --headless --convert-to docx`), which pandoc can then read, comments included. It anchors each comment to its whole paragraph rather than the exact words, and its list numbering and symbols (such as ▶) aren't reliable, so use the method above for exact anchors and formatting checks.
+
+5.5. **Questions before drafting.** Before the first draft, the agent **SHOULD** ask the teacher, in one message:
+1. Does a recent sermon connect (§3.13)?
+2. What terms or framing did the previous class use that this one should call back to (§1.3, §3.6)?
+3. What comes next in the series, and what's left this term (§1.3)?
+4. Is there a current handout draft, and how is it laid out (single sheet, front and back, folded)? (§3.9, §7.7)
+
+If the teacher isn't available, draft anyway and list these as open in the report. **[Provisional]**
 
 ---
 
@@ -327,6 +348,15 @@ Typical catches from past runs: non-ESV wording (NIV, KJV); a dropped opening wo
 3. Don't ask it to reproduce the passage. The site won't serve a full chapter, and the tool caps direct quotes at about 125 characters, so a verse's text comes back as fragments.
 4. For poetry, ask separately how the lines break and which are indented.
 
+7.7. **Handout cross-check.** When a handout draft is available, the agent **SHOULD** compare it against the manuscript as part of the Scripture check, and report each mismatch with a recommendation about which side should change:
+- section headings, theme statements and the references they name (*example:* a section listed as Ruth 4:9–10 on the handout and 4:9–12 in the manuscript);
+- the handout's outline divisions against the manuscript's own structure section, so "follow along on the outline" points at the same sections;
+- references on the handout that the manuscript never reads or cites, and the reverse;
+- quotation marks around words that aren't the ESV's, with any quoted verse checked as in §7.3;
+- jargon on the handout that the manuscript never explains.
+
+Errors can run either way (a wrong chapter reference in the manuscript can come from the handout's outline), so check both directions. **[Provisional]**
+
 ---
 
 ## 8. Timing
@@ -338,7 +368,7 @@ The time budget for the lesson and how to measure it.
 8.2. **What counts, and pace.** The agent **SHOULD** estimate timing this way:
 - **Measure against the speaking notes, not the manuscript,** because the bullets don't fully carry the manuscript's prose.
 - **Count black text only:** the bullets, the ▶ intro lines, black Scripture quotes and the theme lines. Gray text is skipped.
-- **Pace:** about 155 words a minute (range 150–160), from two measured runs (151 on one lesson, about 160 on another).
+- **Pace:** estimate at about 145 words a minute, and aim for about 29 minutes on paper. Measured runs: 151 and about 160 words a minute on two earlier lessons; 143 and 148 on the two Ruth & Samuel dry runs, which included pauses. Estimates made at 155 came in 1½–2 minutes under the real run. **[Provisional]**
 - Report two numbers, one counting black text only and one that also includes the cited-only verses, until a cited-verse convention has held for a few lessons **[Provisional]**.
 
 8.3. **Report time impact.** Every comment round that adds content **SHOULD** report its time impact in minutes, broken down by addition, so the teacher can weigh additions against the budget as they come in rather than all at the end.
@@ -360,7 +390,8 @@ Undecided items. Until a question is resolved, follow the rule as currently writ
 - The 16 pt size of the speaking notes is "for now": revisit after teaching from the larger notes (§4.9).
 - Any other standing shorthand phrases besides the one in §3.6 worth listing?
 - Confirm the Exodus chronological reordering reads the way you wanted (§1.2).
-- Second-source Scripture check: BibleGateway didn't work from the agent's environment (it served the wrong page, then rate-limited). Is there a second source you'd like used, or is esv.org alone acceptable? (§6.2, §7.6)
+- Second-source Scripture check: BibleGateway didn't work from the agent's environment (it served the wrong page, then rate-limited), and the Ruth & Samuel class was checked on esv.org alone. Is there a second source you'd like used, or is esv.org alone acceptable? (§6.2, §7.6)
+- Do interrupted numbered lists actually renumber in Pages, or only in the LibreOffice-converted copy? (§4.9, §5.4)
 
 **Unclear points in the rules**
 - Do kept rhetorical questions get the standalone bold-italic line, or stay in the prose? (§2.6, §4.3)

@@ -206,7 +206,7 @@ The look of the docx files: conventions for both outputs, then Part A (manuscrip
    3. *Follow-up points:* en-dash sub-bullets directly under the quote, with the usual bold lead-ins.
 7. **Questions and Scripture intro lines** get their own full line, never folded into a denser bullet, and are visually distinct from ordinary bullets (bold italic for questions, "▶" for read cues), so the teacher can find them mid-sentence without re-reading the line. Class questions: §4.3.
 8. **Summary and application lines:** a light gray left border (§6.8).
-9. **Numbered lists and outlines:** numbered, indented under the bullet they belong to, with sub-points as sub-bullets. Restart numbering for each separate list. When other material (a quote, a gray verse) interrupts a numbered list, give each item an explicit start number rather than relying on list continuation, and check the numbering when the file comes back from Pages (§5.4). **[Provisional]**
+9. **Numbered lists and outlines:** numbered, indented under the bullet they belong to, with sub-points as sub-bullets. Restart numbering for each separate list.
 10. **Gray text** (§4.2): optional asides bracketed "[If time: …]"; cited-only verses in gray with the intro-line tag.
 11. **The `[TAKE QUESTIONS]` marker:** its own bold-italic line, with any starter questions directly under it.
 
@@ -248,7 +248,7 @@ For notes the teacher edited after a dry run, see §6.10.
 4. **Comment anchors:** the main storage's `tableOverlappingHighlight` entries point to `TSWP.HighlightArchive` objects, which point to the comments. The anchor offsets count UTF-16 code units.
 5. **Direct edits:** diff the extracted text against the version sent (§5.2).
 
-Quick alternative: LibreOffice converts a .pages file to .docx (`soffice --headless --convert-to docx`), which pandoc can then read, comments included. It anchors each comment to its whole paragraph rather than the exact words, and its list numbering and symbols (such as ▶) aren't reliable, so use the method above for exact anchors and formatting checks.
+Quick alternative: LibreOffice converts a .pages file to .docx (`soffice --headless --convert-to docx`), which pandoc can then read, comments included. It anchors each comment to its whole paragraph rather than the exact words, so use the method above when exact anchors matter. The converted copy can also misshow formatting that is fine in Pages: a numbered list interrupted by other material may show every item as "1.", and ▶ may drop out. Don't report these as slips without checking.
 
 5.5. **Questions before drafting.** Before the first draft, the agent **SHOULD** ask the teacher, in one message:
 1. Does a recent sermon connect (§3.13)?
@@ -270,8 +270,8 @@ What the speaking notes contain. Layout is in §4.9; Scripture typography in §4
 
 6.2. **Where the wording comes from.**
 - Where the manuscript already quotes a verse at that location, the notes **MUST** reuse the manuscript's exact wording, including any bracketed glosses and emphasis (such as the bold "**my**" in Matthew 26:28).
-- Verses the manuscript only cites **MUST** be fetched from a primary ESV source (esv.org), never typed from memory, and double-checked against a second source when one is reachable.
-- The agent **MUST** tell the teacher which verses it could confirm on only one source. Method: §7.6. Typography: §4.1.
+- Verses the manuscript only cites **MUST** be fetched from an ESV source (§7.6), never typed from memory.
+- The agent **MUST** tell the teacher about any verse it couldn't confirm on esv.org and checked on another source instead. Method: §7.6. Typography: §4.1.
 
 6.3. **The Scripture unit.** Every Scripture quote in the notes **MUST** be built as three parts, in this order, because this is how the teacher speaks it in the room:
 1. **Intro line.** One line directly above the quote that (a) names the passage as book, chapter and verses (for example "Exodus 12:12–13") and (b) says in a clause why the quote matters at this point in the class. It is a spoken lead-in the teacher can say as written, in the teacher's voice (§2), not a catalogue label like "Key verse:". It **MUST NOT** be a bare citation and **MUST NOT** restate the quote's content word for word. It carries the ▶ marker and bold (§4.9).
@@ -342,7 +342,7 @@ Typical catches from past runs: non-ESV wording (NIV, KJV); a dropped opening wo
 
 7.5. **Newly read-aloud verses.** When a verse is newly read aloud instead of only cited, the agent **SHOULD** check that it actually says what the manuscript claims. *Example:* a verse cited as one kind of offering that turns out to describe another.
 
-7.6. **Method.** This method works:
+7.6. **Source and method.** esv.org is the preferred source: it's the most reliable and rarely rate-limits. Another reliable ESV source is acceptable when esv.org can't be reached, and a second-source check isn't required. This method works on esv.org:
 1. Load single-chapter esv.org pages. Multi-chapter pages get truncated.
 2. Give the fetch tool the candidate text and ask for "every difference, or 'exact match'".
 3. Don't ask it to reproduce the passage. The site won't serve a full chapter, and the tool caps direct quotes at about 125 characters, so a verse's text comes back as fragments.
@@ -390,8 +390,6 @@ Undecided items. Until a question is resolved, follow the rule as currently writ
 - The 16 pt size of the speaking notes is "for now": revisit after teaching from the larger notes (§4.9).
 - Any other standing shorthand phrases besides the one in §3.6 worth listing?
 - Confirm the Exodus chronological reordering reads the way you wanted (§1.2).
-- Second-source Scripture check: BibleGateway didn't work from the agent's environment (it served the wrong page, then rate-limited), and the Ruth & Samuel class was checked on esv.org alone. Is there a second source you'd like used, or is esv.org alone acceptable? (§6.2, §7.6)
-- Do interrupted numbered lists actually renumber in Pages, or only in the LibreOffice-converted copy? (§4.9, §5.4)
 
 **Unclear points in the rules**
 - Do kept rhetorical questions get the standalone bold-italic line, or stay in the prose? (§2.6, §4.3)
